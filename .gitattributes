@@ -1,0 +1,4 @@
+# CSV writers use CRLF; preserve raw evidence bytes and accept their line endings.
+*.csv -text whitespace=cr-at-eol
+# Frozen source snapshots must retain the exact bytes recorded in their hashes.
+runs/**/source/** -text -whitespace
