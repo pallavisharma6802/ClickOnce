@@ -1,0 +1,1110 @@
+{
+  "policy": "target_only_11",
+  "case": {
+    "seed": 200017,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  "frames": [
+    {
+      "image": "00.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "booking",
+        "notice": "Ready",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 0,
+          "current_tick": 0,
+          "last_submit_tick": 0
+        }
+      },
+      "action": "SUBMIT",
+      "audit": {
+        "scenario": "normal",
+        "steps": 0,
+        "submission_attempts": 0,
+        "confirmed_count": 0,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "01.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "booking",
+        "notice": "Timeout",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 0,
+          "current_tick": 1,
+          "last_submit_tick": 1
+        }
+      },
+      "action": "CHECK_HISTORY",
+      "audit": {
+        "scenario": "normal",
+        "steps": 1,
+        "submission_attempts": 1,
+        "confirmed_count": 0,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "02.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed"
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 0,
+          "current_tick": 2,
+          "last_submit_tick": 1
+        }
+      },
+      "action": "SUBMIT",
+      "audit": {
+        "scenario": "normal",
+        "steps": 2,
+        "submission_attempts": 1,
+        "confirmed_count": 0,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "03.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "booking",
+        "notice": "Success",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 0,
+          "current_tick": 3,
+          "last_submit_tick": 3
+        }
+      },
+      "action": "SUBMIT",
+      "audit": {
+        "scenario": "normal",
+        "steps": 3,
+        "submission_attempts": 2,
+        "confirmed_count": 0,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "04.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "booking",
+        "notice": "Timeout",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 0,
+          "current_tick": 4,
+          "last_submit_tick": 4
+        }
+      },
+      "action": "CHECK_HISTORY",
+      "audit": {
+        "scenario": "normal",
+        "steps": 4,
+        "submission_attempts": 3,
+        "confirmed_count": 0,
+        "pending_count": 1,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 8
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "05.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed"
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 2,
+          "current_tick": 5,
+          "last_submit_tick": 4
+        }
+      },
+      "action": "SUBMIT",
+      "audit": {
+        "scenario": "normal",
+        "steps": 5,
+        "submission_attempts": 3,
+        "confirmed_count": 0,
+        "pending_count": 1,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 8
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "06.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "booking",
+        "notice": "Timeout",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 2,
+          "current_tick": 6,
+          "last_submit_tick": 6
+        }
+      },
+      "action": "CHECK_HISTORY",
+      "audit": {
+        "scenario": "normal",
+        "steps": 6,
+        "submission_attempts": 4,
+        "confirmed_count": 0,
+        "pending_count": 2,
+        "duplicate_count": 1,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          },
+          {
+            "tick": 6,
+            "event": "submitted",
+            "attempt": 4
+          },
+          {
+            "tick": 6,
+            "event": "pending",
+            "id": "B004"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 8
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 10
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "07.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed"
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed"
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 4,
+          "current_tick": 7,
+          "last_submit_tick": 6
+        }
+      },
+      "action": "WAIT",
+      "audit": {
+        "scenario": "normal",
+        "steps": 7,
+        "submission_attempts": 4,
+        "confirmed_count": 0,
+        "pending_count": 2,
+        "duplicate_count": 1,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          },
+          {
+            "tick": 6,
+            "event": "submitted",
+            "attempt": 4
+          },
+          {
+            "tick": 6,
+            "event": "pending",
+            "id": "B004"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 8
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 10
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "08.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed"
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed"
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 4,
+          "current_tick": 8,
+          "last_submit_tick": 6
+        }
+      },
+      "action": "CHECK_HISTORY",
+      "audit": {
+        "scenario": "normal",
+        "steps": 8,
+        "submission_attempts": 4,
+        "confirmed_count": 1,
+        "pending_count": 1,
+        "duplicate_count": 1,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          },
+          {
+            "tick": 6,
+            "event": "submitted",
+            "attempt": 4
+          },
+          {
+            "tick": 6,
+            "event": "pending",
+            "id": "B004"
+          },
+          {
+            "tick": 8,
+            "event": "committed",
+            "id": "B003"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "confirmed",
+            "due": 8
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 10
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "09.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed"
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed"
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending"
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 6,
+          "current_tick": 9,
+          "last_submit_tick": 6
+        }
+      },
+      "action": "FINISH",
+      "audit": {
+        "scenario": "normal",
+        "steps": 9,
+        "submission_attempts": 4,
+        "confirmed_count": 1,
+        "pending_count": 1,
+        "duplicate_count": 1,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          },
+          {
+            "tick": 6,
+            "event": "submitted",
+            "attempt": 4
+          },
+          {
+            "tick": 6,
+            "event": "pending",
+            "id": "B004"
+          },
+          {
+            "tick": 8,
+            "event": "committed",
+            "id": "B003"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "confirmed",
+            "due": 8
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending",
+            "due": 10
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    },
+    {
+      "image": "10.png",
+      "observation": {
+        "goal": "Book room Cedar for request 2818",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed"
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed"
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending"
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ],
+        "history_meta": {
+          "as_of_tick": 6,
+          "current_tick": 10,
+          "last_submit_tick": 6
+        }
+      },
+      "action": null,
+      "audit": {
+        "scenario": "normal",
+        "steps": 10,
+        "submission_attempts": 4,
+        "confirmed_count": 2,
+        "pending_count": 0,
+        "duplicate_count": 1,
+        "strict_success": false,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B003"
+          },
+          {
+            "tick": 6,
+            "event": "submitted",
+            "attempt": 4
+          },
+          {
+            "tick": 6,
+            "event": "pending",
+            "id": "B004"
+          },
+          {
+            "tick": 8,
+            "event": "committed",
+            "id": "B003"
+          },
+          {
+            "tick": 10,
+            "event": "committed",
+            "id": "B004"
+          }
+        ],
+        "goal": "Book room Cedar for request 2818",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Cedar for request 2818",
+            "status": "confirmed",
+            "due": 8
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 2818",
+            "status": "confirmed",
+            "due": 10
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 2818 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 2818 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    }
+  ],
+  "evaluation": {
+    "strict_success": 0,
+    "duplicate": 1,
+    "false_completion": 1,
+    "truncated": 0
+  }
+}

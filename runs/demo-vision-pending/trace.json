@@ -1,0 +1,564 @@
+{
+  "policy": "frozen-qwen-plus-learned-policy",
+  "checkpoint": "runs/experiment-v2/q_strict_memory_11.json",
+  "vision": true,
+  "scenario": "pending_timeout",
+  "frames": [
+    {
+      "frame": "00.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "booking",
+        "notice": "Ready",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Complete the visible booking exactly once",
+        "page": "booking",
+        "notice": "Ready",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": "SUBMIT",
+      "perception": {
+        "cached": false,
+        "seconds": 9.21655708301114,
+        "raw": "{\"notice\": \"Ready\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+        "attempts": 1,
+        "load_seconds": 1.850335417,
+        "generated_tokens": 246,
+        "reasoning_present": true
+      },
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 0,
+        "submission_attempts": 0,
+        "confirmed_count": 0,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [],
+        "goal": "Book room Maple for request 5971",
+        "records": []
+      }
+    },
+    {
+      "frame": "01.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "booking",
+        "notice": "Timeout",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Complete the visible booking exactly once",
+        "page": "booking",
+        "notice": "Timeout",
+        "rows": [],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": "CHECK_HISTORY",
+      "perception": {
+        "cached": false,
+        "seconds": 7.010600166991935,
+        "raw": "{\"notice\": \"Timeout\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+        "attempts": 1,
+        "load_seconds": 0.012829542,
+        "generated_tokens": 215,
+        "reasoning_present": true
+      },
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 1,
+        "submission_attempts": 1,
+        "confirmed_count": 0,
+        "pending_count": 1,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "pending",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 5971",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending",
+            "due": 5
+          }
+        ]
+      }
+    },
+    {
+      "frame": "02.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Complete the visible booking exactly once",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "visible-0",
+            "target": "Visible booking",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": "CHECK_HISTORY",
+      "perception": {
+        "cached": false,
+        "seconds": 16.49642754199158,
+        "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 1}",
+        "attempts": 1,
+        "load_seconds": 0.00871725,
+        "generated_tokens": 793,
+        "reasoning_present": true
+      },
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 2,
+        "submission_attempts": 1,
+        "confirmed_count": 0,
+        "pending_count": 1,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "pending",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 5971",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending",
+            "due": 5
+          }
+        ]
+      }
+    },
+    {
+      "frame": "03.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Complete the visible booking exactly once",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "visible-0",
+            "target": "Visible booking",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": "CHECK_HISTORY",
+      "perception": {
+        "cached": true,
+        "seconds": 0,
+        "raw": "cached"
+      },
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 3,
+        "submission_attempts": 1,
+        "confirmed_count": 0,
+        "pending_count": 1,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "pending",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 5971",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending",
+            "due": 5
+          }
+        ]
+      }
+    },
+    {
+      "frame": "04.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Complete the visible booking exactly once",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "visible-0",
+            "target": "Visible booking",
+            "status": "pending"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": "CHECK_HISTORY",
+      "perception": {
+        "cached": true,
+        "seconds": 0,
+        "raw": "cached"
+      },
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 4,
+        "submission_attempts": 1,
+        "confirmed_count": 0,
+        "pending_count": 1,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "pending",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 5971",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "pending",
+            "due": 5
+          }
+        ]
+      }
+    },
+    {
+      "frame": "05.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "confirmed"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Complete the visible booking exactly once",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "visible-0",
+            "target": "Visible booking",
+            "status": "confirmed"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": "FINISH",
+      "perception": {
+        "cached": false,
+        "seconds": 6.974651875003474,
+        "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 1, \"pending\": 0}",
+        "attempts": 1,
+        "load_seconds": 0.006425458,
+        "generated_tokens": 195,
+        "reasoning_present": true
+      },
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 5,
+        "submission_attempts": 1,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": false,
+        "finished": false,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "pending",
+            "id": "B001"
+          },
+          {
+            "tick": 5,
+            "event": "committed",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 5971",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "confirmed",
+            "due": 5
+          }
+        ]
+      }
+    },
+    {
+      "frame": "06.png",
+      "observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "confirmed"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "policy_observation": {
+        "goal": "Book room Maple for request 5971",
+        "page": "history",
+        "notice": "History refreshed",
+        "rows": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "confirmed"
+          }
+        ],
+        "buttons": [
+          "SUBMIT",
+          "CHECK_HISTORY",
+          "WAIT",
+          "FINISH"
+        ]
+      },
+      "action": null,
+      "perception": null,
+      "audit": {
+        "scenario": "pending_timeout",
+        "steps": 6,
+        "submission_attempts": 1,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "pending",
+            "id": "B001"
+          },
+          {
+            "tick": 5,
+            "event": "committed",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 5971",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 5971",
+            "status": "confirmed",
+            "due": 5
+          }
+        ]
+      }
+    }
+  ],
+  "final_audit": {
+    "scenario": "pending_timeout",
+    "steps": 6,
+    "submission_attempts": 1,
+    "confirmed_count": 1,
+    "pending_count": 0,
+    "duplicate_count": 0,
+    "strict_success": true,
+    "finished": true,
+    "truncated": false,
+    "events": [
+      {
+        "tick": 1,
+        "event": "submitted",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "pending",
+        "id": "B001"
+      },
+      {
+        "tick": 5,
+        "event": "committed",
+        "id": "B001"
+      }
+    ],
+    "goal": "Book room Maple for request 5971",
+    "records": [
+      {
+        "id": "B001",
+        "target": "Book room Maple for request 5971",
+        "status": "confirmed",
+        "due": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "python": "3.11.17",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "source_sha256": {
+    "env.py": "b121335ec2eb0de50d38f1fb44bce4cba6e44ee16d811d7e442532ff034a59f8",
+    "__init__.py": "6ba8d1284a2894bb8a726653e2bdb12880d5f0486900dfbb0b4369be6801c347",
+    "browser.py": "ff980481be9848b0d1628082f308bdbc61f63b12904584f5fa5cb210f3906147",
+    "experiment.py": "7cca276f1b7d70603d026f6560d7d021f0677910066bd4442f7eee7e35a56364",
+    "resources.py": "5f7b982bca85239b0c412d3df7a5750916c982411317a501d353f42b82c27290",
+    "learning.py": "dd8600fa15d47a57010fc4328efbd32df75bf1fd7d47b4799dbfd24e8f85fbc4",
+    "perception.py": "4c1e4a97b47b133a180725708c5ad0f30766575f9b00b1a88d79096471ad1729",
+    "demo.py": "4525abf3f7fad2f6a0d8231e92f88a35978ec93a1231337875e19ff6595f48d9",
+    "evaluator.py": "3baf43d22cbcac53c959dbb4e0460f3b1d1432b73f2742ecf946aed71c7a06da",
+    "__main__.py": "595f16bdc38b170bca79f6791f1eb31473bbd54977ecb64d1fe9bd576a755726",
+    "gym_env.py": "81c2004242855f4937ad4372712a71760e2d658e140155ef3f601eb59b070db1",
+    "reporting.py": "4e4ce3e19440953b01e51194df0548c83e097b4a6fb89d16a5170bf4f987a609"
+  },
+  "packages": {
+    "gymnasium": "0.28.1",
+    "playwright": "1.64.1",
+    "numpy": "2.4.6",
+    "psutil": "7.2.2",
+    "matplotlib": "3.10.8"
+  }
+}

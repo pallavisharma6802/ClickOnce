@@ -1,0 +1,462 @@
+[
+  {
+    "file": "frame-00.png",
+    "expected": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 13.187135582993506,
+    "raw": "{\"notice\": \"Ready\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 3.403731667,
+    "generated_tokens": 361,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-01.png",
+    "expected": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 7.737969374997192,
+    "raw": "{\"notice\": \"Success\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.01678825,
+    "generated_tokens": 251,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-02.png",
+    "expected": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 7.037484166998183,
+    "raw": "{\"notice\": \"Timeout\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.016803167,
+    "generated_tokens": 215,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-03.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 6.495144540996989,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.002794959,
+    "generated_tokens": 176,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-04.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 6.857808957996895,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 1, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.003023792,
+    "generated_tokens": 195,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-05.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 10.568628833003459,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 1}",
+    "attempts": 1,
+    "load_seconds": 0.002665875,
+    "generated_tokens": 424,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-06.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 2,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 2,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 7.265484082992771,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 2, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.002676792,
+    "generated_tokens": 214,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-07.png",
+    "expected": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 7.898763041011989,
+    "raw": "{\"notice\": \"Ready\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.004175542,
+    "generated_tokens": 246,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-08.png",
+    "expected": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 13.344046333993901,
+    "raw": "{\"notice\": \"Success\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.002677458,
+    "generated_tokens": 567,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-09.png",
+    "expected": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 7.718287249997957,
+    "raw": "{\"notice\": \"Timeout\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.003687959,
+    "generated_tokens": 215,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-10.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 6.894205374992453,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.003743375,
+    "generated_tokens": 176,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-11.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 8.551493249993655,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 1, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.007248334,
+    "generated_tokens": 195,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-12.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 14.201511749997735,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 1}",
+    "attempts": 1,
+    "load_seconds": 0.003763625,
+    "generated_tokens": 424,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-13.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 2,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 2,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 11.760146500004339,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 2, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.004744083,
+    "generated_tokens": 201,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-14.png",
+    "expected": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 15.490175915998407,
+    "raw": "{\"notice\": \"Ready\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.034753792,
+    "generated_tokens": 333,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-15.png",
+    "expected": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 10.953054208002868,
+    "raw": "{\"notice\": \"Success\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.018250708,
+    "generated_tokens": 251,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-16.png",
+    "expected": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 10.173174249997828,
+    "raw": "{\"notice\": \"Timeout\", \"page\": \"booking\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.004532917,
+    "generated_tokens": 215,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-17.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 9.370374165999237,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.0485375,
+    "generated_tokens": 178,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-18.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 9.093772749998607,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 1, \"pending\": 0}",
+    "attempts": 1,
+    "load_seconds": 0.004293208,
+    "generated_tokens": 195,
+    "reasoning_present": true
+  },
+  {
+    "file": "frame-19.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    },
+    "prediction": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    },
+    "correct": true,
+    "cached": false,
+    "seconds": 23.554435291996924,
+    "raw": "{\"notice\": \"History refreshed\", \"page\": \"history\", \"confirmed\": 0, \"pending\": 1}",
+    "attempts": 1,
+    "load_seconds": 0.0041645,
+    "generated_tokens": 793,
+    "reasoning_present": true
+  }
+]

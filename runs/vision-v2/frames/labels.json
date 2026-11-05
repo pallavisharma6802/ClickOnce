@@ -1,0 +1,182 @@
+[
+  {
+    "file": "frame-00.png",
+    "expected": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-01.png",
+    "expected": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-02.png",
+    "expected": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-03.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-04.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-05.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    }
+  },
+  {
+    "file": "frame-06.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 2,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-07.png",
+    "expected": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-08.png",
+    "expected": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-09.png",
+    "expected": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-10.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-11.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-12.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    }
+  },
+  {
+    "file": "frame-13.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 2,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-14.png",
+    "expected": {
+      "notice": "Ready",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-15.png",
+    "expected": {
+      "notice": "Success",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-16.png",
+    "expected": {
+      "notice": "Timeout",
+      "page": "booking",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-17.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-18.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 1,
+      "pending": 0
+    }
+  },
+  {
+    "file": "frame-19.png",
+    "expected": {
+      "notice": "History refreshed",
+      "page": "history",
+      "confirmed": 0,
+      "pending": 1
+    }
+  }
+]

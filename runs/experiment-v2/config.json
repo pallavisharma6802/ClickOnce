@@ -1,0 +1,14 @@
+{
+  "episodes": 10000,
+  "eval_count": 200,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "alpha": 0.15,
+  "gamma": 0.95,
+  "learner": "tabular finite-memory Q-learning",
+  "observation": "public structured UI, not pixels",
+  "heldout_status": "validation evaluated before locked test; no automatic hyperparameter selection"
+}

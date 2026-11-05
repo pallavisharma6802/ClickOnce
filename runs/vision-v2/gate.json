@@ -1,0 +1,9 @@
+{
+  "model": "qwen3-vl:2b",
+  "accuracy": 1.0,
+  "passed": true,
+  "samples": 20,
+  "trained": false,
+  "observation": "actual browser screenshots",
+  "note": "Small engineering smoke set, not a general perception benchmark"
+}

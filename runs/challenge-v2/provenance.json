@@ -1,0 +1,38 @@
+[
+  {
+    "policy": "target_only_11",
+    "seed": 11,
+    "environment_steps": 65518,
+    "checkpoint_sha256": "f2073dfd5e1da2e05903d2ead2114d4c2e1a50e9b5b4b4594754382e5f122384"
+  },
+  {
+    "policy": "target_only_22",
+    "seed": 22,
+    "environment_steps": 65966,
+    "checkpoint_sha256": "c54189ad87b5d51fa1e46b28a49f11891f6e8988608cc437e28ce77cbbe96ae7"
+  },
+  {
+    "policy": "target_only_33",
+    "seed": 33,
+    "environment_steps": 66323,
+    "checkpoint_sha256": "61af5d8d5c6a18fd7a0ff6992eb9ca1126d95002fac92f8d9af821096fc67b06"
+  },
+  {
+    "policy": "freshness_11",
+    "seed": 11,
+    "environment_steps": 62997,
+    "checkpoint_sha256": "467f14eb8e305e2b102d1a19c505bf58b30a56f8569bf5905210e6fb9965944f"
+  },
+  {
+    "policy": "freshness_22",
+    "seed": 22,
+    "environment_steps": 62575,
+    "checkpoint_sha256": "c0510272f29d9fd9f8cf2fef2947333977071d75b6080a3e133847d4f638dde9"
+  },
+  {
+    "policy": "freshness_33",
+    "seed": 33,
+    "environment_steps": 62515,
+    "checkpoint_sha256": "9d49102add280cbb4a0f1fd8d174b85c1bb4e057d80466dcf560f28fe5b93a12"
+  }
+]

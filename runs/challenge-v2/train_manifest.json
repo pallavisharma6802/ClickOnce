@@ -1,0 +1,4502 @@
+[
+  {
+    "seed": 108464,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100602,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106174,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104698,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100015,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 109363,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105096,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103253,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106954,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 109270,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 100115,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105545,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104163,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103176,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105954,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104073,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102404,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100354,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 107530,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 103300,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106875,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 101676,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101462,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104689,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100496,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 108283,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100682,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106598,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104406,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102819,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103881,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102006,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103310,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102957,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106667,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100498,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101141,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 109741,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103244,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 104951,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108152,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 106102,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 107318,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 108572,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 101443,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100607,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103032,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105285,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100703,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103832,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 101860,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 104944,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105392,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109087,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 104339,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101847,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 103944,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 106385,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 108465,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 101656,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 109600,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109326,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 109612,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104104,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105652,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103721,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104157,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103119,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 106182,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103545,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101148,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103146,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105305,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105310,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105451,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108968,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 108649,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 103406,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 103586,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102201,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 102295,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 108764,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 103757,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 102106,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 108795,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100478,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103577,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109666,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 103279,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104550,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 107150,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105608,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105430,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106677,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108777,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100740,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 106663,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109610,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108958,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 107181,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109025,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 104176,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103962,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104299,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 101806,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107058,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108896,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 106967,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102446,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 101331,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 101832,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 100683,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 108429,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108157,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 107838,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 101442,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103338,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102781,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106072,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105150,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 107579,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102149,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 104514,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100083,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 106360,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108162,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106801,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109106,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101140,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 108995,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 102845,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 103512,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105352,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 104928,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 105835,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 107662,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108657,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107903,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101962,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108662,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 107052,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 102251,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100849,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105236,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 105443,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104475,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105763,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101886,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 102935,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102522,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104678,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 107526,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105201,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109860,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 106169,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 100249,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105555,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103287,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 107486,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 108929,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 101818,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 101182,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108349,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103597,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102231,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103963,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 106191,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100742,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107602,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102238,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 107708,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 101284,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103900,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100647,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100078,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 104120,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 106479,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105185,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 107580,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 107956,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105640,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106273,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106003,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 108015,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104226,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105589,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101437,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104660,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 107198,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 105541,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 102823,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103064,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 101340,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 101674,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103466,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 109911,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102570,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 107305,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106524,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 107309,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102248,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 107431,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105857,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104216,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109181,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 109907,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106636,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 106983,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107125,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104939,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104203,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 109063,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100033,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100029,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 104071,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104929,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 100841,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100417,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104350,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105080,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102508,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 104927,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109178,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100980,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 107865,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 109510,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109653,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106896,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 101254,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 105482,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 109498,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 107923,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 101522,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 101079,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102684,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 109761,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101293,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105940,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 107373,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105487,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105176,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104548,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103496,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103423,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 106326,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 107066,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109068,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108280,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103487,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 106225,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 101601,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100520,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102730,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 106103,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 105094,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103697,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101295,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 103585,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102806,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 105489,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 101418,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109533,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102589,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101960,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 103808,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 108442,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105658,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102321,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105852,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 106838,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103699,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 103718,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104898,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 105529,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109173,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 101840,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 100423,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 100336,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100580,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106336,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100941,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106365,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109108,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104606,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 102661,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 105808,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103190,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103735,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103175,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107438,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 100306,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100894,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 104342,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106155,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106644,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102372,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 108907,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 109580,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 102252,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 109281,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108235,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100227,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 101165,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109012,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 101901,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103710,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100476,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 108902,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 102696,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 107231,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103834,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 105686,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 109457,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100976,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 106251,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105419,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107070,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109151,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 105387,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105957,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103730,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 104068,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100189,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 101544,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 103229,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101350,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102168,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105087,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 102671,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 108133,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104962,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 103974,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 107254,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105681,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102943,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104852,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 106599,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 108959,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 106507,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102332,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101645,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 102628,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 108213,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 100074,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 108873,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105042,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 103688,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 100026,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103513,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104230,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 101606,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 101623,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109585,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109886,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104510,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101207,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109324,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106369,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 108289,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103344,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 2,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 103772,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 109647,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100413,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104478,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 107006,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106154,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 102560,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 103422,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108034,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106114,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101562,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102920,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 106241,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108952,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103728,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 104095,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 107944,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103378,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 108763,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 104560,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105880,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 108716,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101604,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 104221,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109261,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103271,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 104155,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 102312,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 105088,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 107950,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102569,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 104455,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 105312,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 100085,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106766,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 107114,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 101321,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 108513,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 107086,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101006,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 1,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 108182,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 104328,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 106140,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 105278,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105516,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101168,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 108972,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102830,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100988,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101578,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100107,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 102887,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 100456,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 102169,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104129,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 101760,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 100561,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 103412,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109202,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 109258,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102768,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106011,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 107513,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104307,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 106851,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 102531,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 101038,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100735,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104325,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 106135,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 108970,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 101071,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 101247,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106310,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 109874,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101250,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 105117,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 102760,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 109236,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 106763,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 1,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 101800,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 102205,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109170,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 100639,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 107839,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 105659,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 107069,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 103280,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 101466,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100043,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 104926,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 107352,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105972,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 104271,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 100147,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 1,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103205,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 109118,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105301,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 103048,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 101421,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 102805,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100666,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 102214,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 103080,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 104044,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 2,
+    "lag": 1,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 107625,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 103062,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 100028,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 107692,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 108243,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 1,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 106760,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 101104,
+    "tier": "repeated",
+    "failures": 2,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 101358,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 107422,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100157,
+    "tier": "combined",
+    "failures": 1,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 105485,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 107300,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105592,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 108185,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 105944,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 1,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 104399,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 105563,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 103828,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107636,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 100216,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 2,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 100133,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2
+  },
+  {
+    "seed": 103625,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 109452,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 100669,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 109546,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 109719,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 5
+  },
+  {
+    "seed": 102207,
+    "tier": "repeated",
+    "failures": 3,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 101862,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 105493,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 3
+  },
+  {
+    "seed": 107594,
+    "tier": "combined",
+    "failures": 2,
+    "distractors": 3,
+    "lag": 3,
+    "pending": false,
+    "delay": 4
+  },
+  {
+    "seed": 106120,
+    "tier": "clean",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2
+  },
+  {
+    "seed": 109298,
+    "tier": "repeated",
+    "failures": 1,
+    "distractors": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5
+  },
+  {
+    "seed": 106092,
+    "tier": "distractors",
+    "failures": 0,
+    "distractors": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 3
+  },
+  {
+    "seed": 107166,
+    "tier": "stale",
+    "failures": 0,
+    "distractors": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4
+  },
+  {
+    "seed": 104280,
+    "tier": "combined",
+    "failures": 3,
+    "distractors": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 5
+  }
+]

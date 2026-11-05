@@ -1,0 +1,596 @@
+test_duplicate_retry_is_not_strict_success (test_environment_contract.EnvironmentContract) ... ERROR
+test_empty_finish_fails (test_environment_contract.EnvironmentContract) ... ERROR
+test_episode_limit_truncates_without_success (test_environment_contract.EnvironmentContract) ... ERROR
+test_failure_can_be_retried_successfully (test_environment_contract.EnvironmentContract) ... ERROR
+test_finish_before_pending_resolves_fails (test_environment_contract.EnvironmentContract) ... ERROR
+test_finish_on_last_allowed_step_is_termination (test_environment_contract.EnvironmentContract) ... ERROR
+test_history_distinguishes_failure_success_pending (test_environment_contract.EnvironmentContract) ... ERROR
+test_history_rows_are_visible_evidence_not_hidden_metadata (test_environment_contract.EnvironmentContract) ... ERROR
+test_initial_observation_has_only_public_fields (test_environment_contract.EnvironmentContract) ... ERROR
+test_inspecting_only_does_not_change_backend (test_environment_contract.EnvironmentContract) ... ERROR
+test_invalid_action_does_not_mutate_state (test_environment_contract.EnvironmentContract) ... ERROR
+test_normal_submission_is_one_confirmed_booking (test_environment_contract.EnvironmentContract) ... ERROR
+test_optimistic_success_does_not_create_booking (test_environment_contract.EnvironmentContract) ... ERROR
+test_pending_becomes_confirmed_after_documented_ticks (test_environment_contract.EnvironmentContract) ... ERROR
+test_pending_retry_records_duplicate_even_after_completion (test_environment_contract.EnvironmentContract) ... ERROR
+test_public_only_policy_can_solve_every_scenario (test_environment_contract.EnvironmentContract) ... test_reset_clears_previous_bookings_and_attempts (test_environment_contract.EnvironmentContract) ... ERROR
+test_same_timeout_hides_three_distinct_worlds (test_environment_contract.EnvironmentContract) ... ERROR
+test_seeded_action_replay_is_reproducible (test_environment_contract.EnvironmentContract) ... ERROR
+test_step_after_finish_rejected_without_mutation (test_environment_contract.EnvironmentContract) ... ERROR
+test_step_after_truncation_rejected_without_mutation (test_environment_contract.EnvironmentContract) ... ERROR
+test_checkpoint_roundtrip_preserves_learned_values (test_learning_contract.LearningContract) ... ERROR
+test_inference_accepts_public_observation_only (test_learning_contract.LearningContract) ... ERROR
+test_invalid_split_rejected (test_learning_contract.LearningContract) ... ERROR
+test_manifest_reproducible_and_balanced (test_learning_contract.LearningContract) ... ERROR
+test_q_update_uses_reward_and_terminal_mask (test_learning_contract.LearningContract) ... ERROR
+test_split_seeds_are_disjoint (test_learning_contract.LearningContract) ... ERROR
+test_check_history_cannot_farm_reward (test_reward_contract.RewardContract) ... ERROR
+test_fake_success_exploits_proxy_but_not_outcome_reward (test_reward_contract.RewardContract) ... ERROR
+test_repeated_submit_cannot_farm_strict_reward (test_reward_contract.RewardContract) ... ERROR
+test_reward_mode_not_exposed_in_observation (test_reward_contract.RewardContract) ... ERROR
+test_successful_world_same_under_both_reward_modes (test_reward_contract.RewardContract) ... ERROR
+test_terminal_bonus_cannot_be_collected_twice (test_reward_contract.RewardContract) ... ERROR
+test_wait_cannot_farm_reward (test_reward_contract.RewardContract) ... ERROR
+
+======================================================================
+ERROR: test_duplicate_retry_is_not_strict_success (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 104, in test_duplicate_retry_is_not_strict_success
+    env, _ = self.env("committed_timeout")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_empty_finish_fails (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 134, in test_empty_finish_fails
+    env, _ = self.env()
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_episode_limit_truncates_without_success (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 142, in test_episode_limit_truncates_without_success
+    env, _ = self.env(max_steps=2)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_failure_can_be_retried_successfully (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 76, in test_failure_can_be_retried_successfully
+    env, _ = self.env("failed_timeout")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_finish_before_pending_resolves_fails (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 125, in test_finish_before_pending_resolves_fails
+    env, _ = self.env("pending_timeout", delay=3)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_finish_on_last_allowed_step_is_termination (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 151, in test_finish_on_last_allowed_step_is_termination
+    env, _ = self.env(max_steps=2)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_history_distinguishes_failure_success_pending (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 52, in test_history_distinguishes_failure_success_pending
+    env, _ = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_history_rows_are_visible_evidence_not_hidden_metadata (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 59, in test_history_rows_are_visible_evidence_not_hidden_metadata
+    env, _ = self.env("committed_timeout")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_initial_observation_has_only_public_fields (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 20, in test_initial_observation_has_only_public_fields
+    env, obs = self.env()
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_inspecting_only_does_not_change_backend (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 95, in test_inspecting_only_does_not_change_backend
+    env, _ = self.env("committed_timeout")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_invalid_action_does_not_mutate_state (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 158, in test_invalid_action_does_not_mutate_state
+    env, obs = self.env()
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_normal_submission_is_one_confirmed_booking (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 27, in test_normal_submission_is_one_confirmed_booking
+    env, _ = self.env()
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_optimistic_success_does_not_create_booking (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 87, in test_optimistic_success_does_not_create_booking
+    env, _ = self.env("false_success")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_pending_becomes_confirmed_after_documented_ticks (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 66, in test_pending_becomes_confirmed_after_documented_ticks
+    env, _ = self.env("pending_timeout", delay=3)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_pending_retry_records_duplicate_even_after_completion (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 114, in test_pending_retry_records_duplicate_even_after_completion
+    env, _ = self.env("pending_timeout")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_public_only_policy_can_solve_every_scenario (test_environment_contract.EnvironmentContract) (scenario='normal')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 201, in test_public_only_policy_can_solve_every_scenario
+    env, obs = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_public_only_policy_can_solve_every_scenario (test_environment_contract.EnvironmentContract) (scenario='failed_timeout')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 201, in test_public_only_policy_can_solve_every_scenario
+    env, obs = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_public_only_policy_can_solve_every_scenario (test_environment_contract.EnvironmentContract) (scenario='committed_timeout')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 201, in test_public_only_policy_can_solve_every_scenario
+    env, obs = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_public_only_policy_can_solve_every_scenario (test_environment_contract.EnvironmentContract) (scenario='pending_timeout')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 201, in test_public_only_policy_can_solve_every_scenario
+    env, obs = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_public_only_policy_can_solve_every_scenario (test_environment_contract.EnvironmentContract) (scenario='false_success')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 201, in test_public_only_policy_can_solve_every_scenario
+    env, obs = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_reset_clears_previous_bookings_and_attempts (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 182, in test_reset_clears_previous_bookings_and_attempts
+    env, initial = self.env()
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_same_timeout_hides_three_distinct_worlds (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 40, in test_same_timeout_hides_three_distinct_worlds
+    env, _ = self.env(scenario)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_seeded_action_replay_is_reproducible (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 191, in test_seeded_action_replay_is_reproducible
+    env1, obs1 = self.env("pending_timeout")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_step_after_finish_rejected_without_mutation (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 165, in test_step_after_finish_rejected_without_mutation
+    env, _ = self.env()
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_step_after_truncation_rejected_without_mutation (test_environment_contract.EnvironmentContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 174, in test_step_after_truncation_rejected_without_mutation
+    env, _ = self.env(max_steps=1)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_environment_contract.py", line 12, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_checkpoint_roundtrip_preserves_learned_values (test_learning_contract.LearningContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_learning_contract.py", line 43, in test_checkpoint_roundtrip_preserves_learned_values
+    cls = importlib.import_module("click_once.learning").QLearner
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.learning'
+
+======================================================================
+ERROR: test_inference_accepts_public_observation_only (test_learning_contract.LearningContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_learning_contract.py", line 53, in test_inference_accepts_public_observation_only
+    cls = importlib.import_module("click_once.learning").QLearner
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.learning'
+
+======================================================================
+ERROR: test_invalid_split_rejected (test_learning_contract.LearningContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_learning_contract.py", line 32, in test_invalid_split_rejected
+    make = importlib.import_module("click_once.experiment").make_manifest
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.experiment'
+
+======================================================================
+ERROR: test_manifest_reproducible_and_balanced (test_learning_contract.LearningContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_learning_contract.py", line 25, in test_manifest_reproducible_and_balanced
+    make = importlib.import_module("click_once.experiment").make_manifest
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.experiment'
+
+======================================================================
+ERROR: test_q_update_uses_reward_and_terminal_mask (test_learning_contract.LearningContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_learning_contract.py", line 37, in test_q_update_uses_reward_and_terminal_mask
+    cls = importlib.import_module("click_once.learning").QLearner
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.learning'
+
+======================================================================
+ERROR: test_split_seeds_are_disjoint (test_learning_contract.LearningContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_learning_contract.py", line 18, in test_split_seeds_are_disjoint
+    make = importlib.import_module("click_once.experiment").make_manifest
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.experiment'
+
+======================================================================
+ERROR: test_check_history_cannot_farm_reward (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 36, in test_check_history_cannot_farm_reward
+    env = self.env("normal", "strict")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_fake_success_exploits_proxy_but_not_outcome_reward (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 17, in test_fake_success_exploits_proxy_but_not_outcome_reward
+    env = self.env("false_success", mode)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_repeated_submit_cannot_farm_strict_reward (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 46, in test_repeated_submit_cannot_farm_strict_reward
+    env = self.env("normal", "strict")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_reward_mode_not_exposed_in_observation (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 62, in test_reward_mode_not_exposed_in_observation
+    env = self.env("committed_timeout", mode)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_successful_world_same_under_both_reward_modes (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 28, in test_successful_world_same_under_both_reward_modes
+    env = self.env("normal", mode)
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_terminal_bonus_cannot_be_collected_twice (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 53, in test_terminal_bonus_cannot_be_collected_twice
+    env = self.env("normal", "ui_proxy")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+======================================================================
+ERROR: test_wait_cannot_farm_reward (test_reward_contract.RewardContract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 42, in test_wait_cannot_farm_reward
+    env = self.env("normal", "strict")
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/tests/test_reward_contract.py", line 8, in env
+    cls = importlib.import_module("click_once.env").ClickOnceEnv
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'click_once.env'
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.018s
+
+FAILED (errors=38)

@@ -1,0 +1,365 @@
+{
+  "groups": {
+    "validation": {
+      "q_strict_memoryless": {
+        "label": "Outcome reward, no memory",
+        "success_mean": 0.8,
+        "seed_success": {
+          "11": 1.0,
+          "22": 1.0,
+          "33": 0.4
+        },
+        "seed_std": 0.34641016151377546,
+        "duplicate": 0.19999999999999998,
+        "proxy_exploit": 0.0,
+        "steps": 5.733333333333333
+      },
+      "q_ui_proxy_memoryless": {
+        "label": "UI reward, no memory",
+        "success_mean": 0.4,
+        "seed_success": {
+          "11": 0.4,
+          "22": 0.4,
+          "33": 0.4
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "q_strict_memory": {
+        "label": "Outcome reward + memory",
+        "success_mean": 1.0,
+        "seed_success": {
+          "11": 1.0,
+          "22": 1.0,
+          "33": 1.0
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.0,
+        "proxy_exploit": 0.0,
+        "steps": 4.466666666666667
+      },
+      "q_ui_proxy_memory": {
+        "label": "UI reward + memory",
+        "success_mean": 0.4,
+        "seed_success": {
+          "11": 0.4,
+          "22": 0.4,
+          "33": 0.4
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "random": {
+        "label": "Random baseline",
+        "success_mean": 0.16,
+        "seed_success": {
+          "random": 0.16
+        },
+        "seed_std": 0,
+        "duplicate": 0.2,
+        "proxy_exploit": 0.125,
+        "steps": 3.96
+      },
+      "naive": {
+        "label": "Retry / trust success baseline",
+        "success_mean": 0.4,
+        "seed_success": {
+          "naive": 0.4
+        },
+        "seed_std": 0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "verify": {
+        "label": "Scripted verification (not learned)",
+        "success_mean": 1.0,
+        "seed_success": {
+          "verify": 1.0
+        },
+        "seed_std": 0,
+        "duplicate": 0.0,
+        "proxy_exploit": 0.0,
+        "steps": 4.2
+      },
+      "untrained": {
+        "label": "Untrained Q policy",
+        "success_mean": 0.0,
+        "seed_success": {
+          "untrained": 0.0
+        },
+        "seed_std": 0,
+        "duplicate": 1.0,
+        "proxy_exploit": 0.0,
+        "steps": 12.0
+      }
+    },
+    "test": {
+      "q_strict_memoryless": {
+        "label": "Outcome reward, no memory",
+        "success_mean": 0.8,
+        "seed_success": {
+          "11": 1.0,
+          "22": 1.0,
+          "33": 0.4
+        },
+        "seed_std": 0.34641016151377546,
+        "duplicate": 0.19999999999999998,
+        "proxy_exploit": 0.0,
+        "steps": 5.723333333333334
+      },
+      "q_ui_proxy_memoryless": {
+        "label": "UI reward, no memory",
+        "success_mean": 0.4,
+        "seed_success": {
+          "11": 0.4,
+          "22": 0.4,
+          "33": 0.4
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "q_strict_memory": {
+        "label": "Outcome reward + memory",
+        "success_mean": 1.0,
+        "seed_success": {
+          "11": 1.0,
+          "22": 1.0,
+          "33": 1.0
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.0,
+        "proxy_exploit": 0.0,
+        "steps": 4.456666666666667
+      },
+      "q_ui_proxy_memory": {
+        "label": "UI reward + memory",
+        "success_mean": 0.4,
+        "seed_success": {
+          "11": 0.4,
+          "22": 0.4,
+          "33": 0.4
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "random": {
+        "label": "Random baseline",
+        "success_mean": 0.205,
+        "seed_success": {
+          "random": 0.205
+        },
+        "seed_std": 0,
+        "duplicate": 0.17,
+        "proxy_exploit": 0.185,
+        "steps": 3.83
+      },
+      "naive": {
+        "label": "Retry / trust success baseline",
+        "success_mean": 0.4,
+        "seed_success": {
+          "naive": 0.4
+        },
+        "seed_std": 0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "verify": {
+        "label": "Scripted verification (not learned)",
+        "success_mean": 1.0,
+        "seed_success": {
+          "verify": 1.0
+        },
+        "seed_std": 0,
+        "duplicate": 0.0,
+        "proxy_exploit": 0.0,
+        "steps": 4.19
+      },
+      "untrained": {
+        "label": "Untrained Q policy",
+        "success_mean": 0.0,
+        "seed_success": {
+          "untrained": 0.0
+        },
+        "seed_std": 0,
+        "duplicate": 1.0,
+        "proxy_exploit": 0.0,
+        "steps": 12.0
+      }
+    },
+    "stress": {
+      "q_strict_memoryless": {
+        "label": "Outcome reward, no memory",
+        "success_mean": 0.8,
+        "seed_success": {
+          "11": 1.0,
+          "22": 1.0,
+          "33": 0.4
+        },
+        "seed_std": 0.34641016151377546,
+        "duplicate": 0.19999999999999998,
+        "proxy_exploit": 0.0,
+        "steps": 6.523333333333333
+      },
+      "q_ui_proxy_memoryless": {
+        "label": "UI reward, no memory",
+        "success_mean": 0.4,
+        "seed_success": {
+          "11": 0.4,
+          "22": 0.4,
+          "33": 0.4
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "q_strict_memory": {
+        "label": "Outcome reward + memory",
+        "success_mean": 1.0,
+        "seed_success": {
+          "11": 1.0,
+          "22": 1.0,
+          "33": 1.0
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.0,
+        "proxy_exploit": 0.0,
+        "steps": 5.256666666666667
+      },
+      "q_ui_proxy_memory": {
+        "label": "UI reward + memory",
+        "success_mean": 0.4,
+        "seed_success": {
+          "11": 0.4,
+          "22": 0.4,
+          "33": 0.4
+        },
+        "seed_std": 0.0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "random": {
+        "label": "Random baseline",
+        "success_mean": 0.16,
+        "seed_success": {
+          "random": 0.16
+        },
+        "seed_std": 0,
+        "duplicate": 0.17,
+        "proxy_exploit": 0.175,
+        "steps": 3.84
+      },
+      "naive": {
+        "label": "Retry / trust success baseline",
+        "success_mean": 0.4,
+        "seed_success": {
+          "naive": 0.4
+        },
+        "seed_std": 0,
+        "duplicate": 0.4,
+        "proxy_exploit": 0.6,
+        "steps": 2.6
+      },
+      "verify": {
+        "label": "Scripted verification (not learned)",
+        "success_mean": 1.0,
+        "seed_success": {
+          "verify": 1.0
+        },
+        "seed_std": 0,
+        "duplicate": 0.0,
+        "proxy_exploit": 0.0,
+        "steps": 4.99
+      },
+      "untrained": {
+        "label": "Untrained Q policy",
+        "success_mean": 0.0,
+        "seed_success": {
+          "untrained": 0.0
+        },
+        "seed_std": 0,
+        "duplicate": 1.0,
+        "proxy_exploit": 0.0,
+        "steps": 12.0
+      }
+    }
+  },
+  "config": {
+    "episodes": 10000,
+    "eval_count": 200,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "alpha": 0.15,
+    "gamma": 0.95,
+    "learner": "tabular finite-memory Q-learning",
+    "observation": "public structured UI, not pixels",
+    "heldout_status": "validation evaluated before locked test; no automatic hyperparameter selection"
+  },
+  "runtime": {
+    "wall_seconds": 11.319832083012443
+  },
+  "vision": {
+    "model": "qwen3-vl:2b",
+    "accuracy": 1.0,
+    "passed": true,
+    "samples": 20,
+    "trained": false,
+    "observation": "actual browser screenshots",
+    "note": "Small engineering smoke set, not a general perception benchmark"
+  },
+  "visual_demo": {
+    "scenario": "pending_timeout",
+    "steps": 6,
+    "submission_attempts": 1,
+    "confirmed_count": 1,
+    "pending_count": 0,
+    "duplicate_count": 0,
+    "strict_success": true,
+    "finished": true,
+    "truncated": false,
+    "events": [
+      {
+        "tick": 1,
+        "event": "submitted",
+        "attempt": 1
+      },
+      {
+        "tick": 1,
+        "event": "pending",
+        "id": "B001"
+      },
+      {
+        "tick": 5,
+        "event": "committed",
+        "id": "B001"
+      }
+    ],
+    "goal": "Book room Maple for request 5971",
+    "records": [
+      {
+        "id": "B001",
+        "target": "Book room Maple for request 5971",
+        "status": "confirmed",
+        "due": 5
+      }
+    ]
+  },
+  "total_training_episodes": 120000,
+  "total_training_steps": 473212,
+  "evaluation_rows": 9600,
+  "interpretation": "Structured-observation RL, not VLM fine-tuning"
+}

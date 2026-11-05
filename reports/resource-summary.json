@@ -1,0 +1,17 @@
+{
+  "experiment-v2-resources": {
+    "samples": 4,
+    "max_pressure": 2,
+    "max_process_tree_rss_bytes": 24739840
+  },
+  "vision-v2/resources": {
+    "samples": 71,
+    "max_pressure": 2,
+    "max_process_tree_rss_bytes": 1044627456
+  },
+  "demo-vision-pending/resources": {
+    "samples": 15,
+    "max_pressure": 2,
+    "max_process_tree_rss_bytes": 898940928
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "challenge-v2",
+  "episodes": 10000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "max_steps": 24,
+  "alpha": 0.15,
+  "gamma": 0.95,
+  "observation": "engineered target matching and visible history freshness, not VLM training",
+  "selection": "All configurations fixed before validation/test; no checkpoint selection"
+}

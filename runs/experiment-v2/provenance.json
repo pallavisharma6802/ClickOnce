@@ -1,0 +1,86 @@
+[
+  {
+    "policy": "q_strict_memoryless_11",
+    "training_reward": "strict",
+    "training_seed": 11,
+    "environment_steps": 47285,
+    "checkpoint_sha256": "090a5c7c7fc377ac4208ed8803c4e206989113356fb59576560d88fcaeb016a5"
+  },
+  {
+    "policy": "q_strict_memoryless_22",
+    "training_reward": "strict",
+    "training_seed": 22,
+    "environment_steps": 47496,
+    "checkpoint_sha256": "7127b86bdf8b3ca440f7beabf338029c392f882b2f29e05fd37ffbd5d9490351"
+  },
+  {
+    "policy": "q_strict_memoryless_33",
+    "training_reward": "strict",
+    "training_seed": 33,
+    "environment_steps": 46952,
+    "checkpoint_sha256": "917c84981731179561574f98fd4d14deab127213fb72a7abfeae8b876bb290d2"
+  },
+  {
+    "policy": "q_ui_proxy_memoryless_11",
+    "training_reward": "ui_proxy",
+    "training_seed": 11,
+    "environment_steps": 31229,
+    "checkpoint_sha256": "c9c706363c2cfe90aeea08b0bf968d8238e7a02f0808f4b4c61631bff1d1ba68"
+  },
+  {
+    "policy": "q_ui_proxy_memoryless_22",
+    "training_reward": "ui_proxy",
+    "training_seed": 22,
+    "environment_steps": 31144,
+    "checkpoint_sha256": "a97b992dda972aff3bf2881a3d7e22aa78854861f72ce4c02397ed89aae5cf21"
+  },
+  {
+    "policy": "q_ui_proxy_memoryless_33",
+    "training_reward": "ui_proxy",
+    "training_seed": 33,
+    "environment_steps": 31300,
+    "checkpoint_sha256": "b4335f8d5374da9eae04f851659bdb4c240c42840d673953ef0ac6640dc1c6e4"
+  },
+  {
+    "policy": "q_strict_memory_11",
+    "training_reward": "strict",
+    "training_seed": 11,
+    "environment_steps": 48024,
+    "checkpoint_sha256": "9553a96a155c0efd5b7c5ceaf7ee47ff08dfccd1e7732f901ba46296fbd5b71b"
+  },
+  {
+    "policy": "q_strict_memory_22",
+    "training_reward": "strict",
+    "training_seed": 22,
+    "environment_steps": 47681,
+    "checkpoint_sha256": "e683dc534811cffcca28ba39e24eae42fdf90a1c6a1859a68b65052d9c2b9b63"
+  },
+  {
+    "policy": "q_strict_memory_33",
+    "training_reward": "strict",
+    "training_seed": 33,
+    "environment_steps": 48277,
+    "checkpoint_sha256": "0d7430888d1880768d1c362c6ae6a7d6ab8590bafb1f39d5224510cbbf18a85f"
+  },
+  {
+    "policy": "q_ui_proxy_memory_11",
+    "training_reward": "ui_proxy",
+    "training_seed": 11,
+    "environment_steps": 31343,
+    "checkpoint_sha256": "595469149b151c0fca70dff30248047dc13545c06da3c876eda4854d472aa225"
+  },
+  {
+    "policy": "q_ui_proxy_memory_22",
+    "training_reward": "ui_proxy",
+    "training_seed": 22,
+    "environment_steps": 31150,
+    "checkpoint_sha256": "b33055f623a1d9798c4775010a22cd4020dae293f4255acb43b423c6f7c023d4"
+  },
+  {
+    "policy": "q_ui_proxy_memory_33",
+    "training_reward": "ui_proxy",
+    "training_seed": 33,
+    "environment_steps": 31331,
+    "checkpoint_sha256": "eafebf3017b269759f807666308e97d70a783d15fee2dce77b5ce2fa847da035"
+  }
+]

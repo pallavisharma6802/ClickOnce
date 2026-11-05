@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "click-once-rl"
+version = "0.1.0"
+description = "Ambiguous-outcome browser environment for reinforcement-learning agents"
+requires-python = ">=3.11"
+dependencies = ["gymnasium==0.28.1", "numpy==2.4.6", "playwright==1.64.1", "psutil==7.2.2"]
+
+[project.optional-dependencies]
+report = ["matplotlib==3.10.8"]
+
+[project.scripts]
+clickonce = "click_once.__main__:main"
+
+[tool.setuptools.package-data]
+click_once = ["*.html"]
+
+[tool.setuptools.packages.find]
+include = ["click_once*"]

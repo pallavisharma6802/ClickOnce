@@ -1,0 +1,23 @@
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+*.pyc
+.DS_Store
+build/
+dist/
+*.egg-info/
+
+# Publish reproducibility evidence, not scratch runs or local caches.
+runs/*
+!runs/experiment-v2/
+!runs/challenge-v2/
+!runs/demo-naive/
+!runs/demo-learned/
+!runs/demo-proxy/
+!runs/demo-memoryless-failure-normal/
+!runs/demo-vision-pending/
+!runs/vision-v2/
+runs/**/cache/
+runs/**/perception-cache/
