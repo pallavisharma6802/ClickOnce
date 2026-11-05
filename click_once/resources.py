@@ -11,13 +11,16 @@ from pathlib import Path
 class PressureGate:
     def __init__(self):self.critical=0
     def sample(self,level):
+        if level<0:return True
         self.critical=self.critical+1 if level>=4 else 0
         return self.critical>=2
 
 def pressure():
     if platform.system()!='Darwin':return 0
-    r=subprocess.run(['sysctl','-n','kern.memorystatus_vm_pressure_level'],capture_output=True,text=True,timeout=3)
-    return int(r.stdout.strip()) if r.returncode==0 else -1
+    try:
+        r=subprocess.run(['sysctl','-n','kern.memorystatus_vm_pressure_level'],capture_output=True,text=True,timeout=3)
+        return int(r.stdout.strip()) if r.returncode==0 else -1
+    except (subprocess.TimeoutExpired,OSError,ValueError):return -1
 
 class ResourceGuard:
     def __init__(self,output):
@@ -37,7 +40,7 @@ class ResourceGuard:
                     except psutil.Error:pass
                 level=pressure();w.writerow([time.time(),level,rss,psutil.virtual_memory().available,psutil.swap_memory().used]);f.flush()
                 if self.gate.sample(level):
-                    (self.output/'memory_stop.txt').write_text('Stopped after two critical pressure samples. No automatic restart.\n')
+                    (self.output/'memory_stop.txt').write_text('Stopped: two critical pressure samples or unavailable pressure monitor. No automatic restart.\n')
                     os.kill(os.getpid(),signal.SIGINT);return
                 self.stop.wait(3)
     def __exit__(self,*args):self.stop.set();self.thread.join(timeout=4)

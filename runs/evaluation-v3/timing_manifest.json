@@ -1,0 +1,722 @@
+[
+  {
+    "case_id": "timing-f0-l0-p6",
+    "seed": 610000,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l0-p7",
+    "seed": 610001,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l0-p8",
+    "seed": 610002,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l0-p9",
+    "seed": 610003,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l0-p10",
+    "seed": 610004,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l1-p6",
+    "seed": 610005,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l1-p7",
+    "seed": 610006,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l1-p8",
+    "seed": 610007,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l1-p9",
+    "seed": 610008,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l1-p10",
+    "seed": 610009,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l2-p6",
+    "seed": 610010,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l2-p7",
+    "seed": 610011,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l2-p8",
+    "seed": 610012,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l2-p9",
+    "seed": 610013,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l2-p10",
+    "seed": 610014,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l3-p6",
+    "seed": 610015,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l3-p7",
+    "seed": 610016,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l3-p8",
+    "seed": 610017,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l3-p9",
+    "seed": 610018,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f0-l3-p10",
+    "seed": 610019,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l0-p6",
+    "seed": 610020,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l0-p7",
+    "seed": 610021,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l0-p8",
+    "seed": 610022,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l0-p9",
+    "seed": 610023,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l0-p10",
+    "seed": 610024,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l1-p6",
+    "seed": 610025,
+    "failures": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l1-p7",
+    "seed": 610026,
+    "failures": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l1-p8",
+    "seed": 610027,
+    "failures": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l1-p9",
+    "seed": 610028,
+    "failures": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l1-p10",
+    "seed": 610029,
+    "failures": 1,
+    "lag": 1,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l2-p6",
+    "seed": 610030,
+    "failures": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l2-p7",
+    "seed": 610031,
+    "failures": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l2-p8",
+    "seed": 610032,
+    "failures": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l2-p9",
+    "seed": 610033,
+    "failures": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l2-p10",
+    "seed": 610034,
+    "failures": 1,
+    "lag": 2,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l3-p6",
+    "seed": 610035,
+    "failures": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l3-p7",
+    "seed": 610036,
+    "failures": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l3-p8",
+    "seed": 610037,
+    "failures": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l3-p9",
+    "seed": 610038,
+    "failures": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f1-l3-p10",
+    "seed": 610039,
+    "failures": 1,
+    "lag": 3,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l0-p6",
+    "seed": 610040,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l0-p7",
+    "seed": 610041,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l0-p8",
+    "seed": 610042,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l0-p9",
+    "seed": 610043,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l0-p10",
+    "seed": 610044,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l1-p6",
+    "seed": 610045,
+    "failures": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l1-p7",
+    "seed": 610046,
+    "failures": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l1-p8",
+    "seed": 610047,
+    "failures": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l1-p9",
+    "seed": 610048,
+    "failures": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l1-p10",
+    "seed": 610049,
+    "failures": 2,
+    "lag": 1,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l2-p6",
+    "seed": 610050,
+    "failures": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l2-p7",
+    "seed": 610051,
+    "failures": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l2-p8",
+    "seed": 610052,
+    "failures": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l2-p9",
+    "seed": 610053,
+    "failures": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l2-p10",
+    "seed": 610054,
+    "failures": 2,
+    "lag": 2,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l3-p6",
+    "seed": 610055,
+    "failures": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l3-p7",
+    "seed": 610056,
+    "failures": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l3-p8",
+    "seed": 610057,
+    "failures": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l3-p9",
+    "seed": 610058,
+    "failures": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f2-l3-p10",
+    "seed": 610059,
+    "failures": 2,
+    "lag": 3,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l0-p6",
+    "seed": 610060,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l0-p7",
+    "seed": 610061,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l0-p8",
+    "seed": 610062,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l0-p9",
+    "seed": 610063,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l0-p10",
+    "seed": 610064,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l1-p6",
+    "seed": 610065,
+    "failures": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l1-p7",
+    "seed": 610066,
+    "failures": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l1-p8",
+    "seed": 610067,
+    "failures": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l1-p9",
+    "seed": 610068,
+    "failures": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l1-p10",
+    "seed": 610069,
+    "failures": 3,
+    "lag": 1,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l2-p6",
+    "seed": 610070,
+    "failures": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l2-p7",
+    "seed": 610071,
+    "failures": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l2-p8",
+    "seed": 610072,
+    "failures": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l2-p9",
+    "seed": 610073,
+    "failures": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l2-p10",
+    "seed": 610074,
+    "failures": 3,
+    "lag": 2,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l3-p6",
+    "seed": 610075,
+    "failures": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 6,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l3-p7",
+    "seed": 610076,
+    "failures": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 7,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l3-p8",
+    "seed": 610077,
+    "failures": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 8,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l3-p9",
+    "seed": 610078,
+    "failures": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 9,
+    "distractors": 1
+  },
+  {
+    "case_id": "timing-f3-l3-p10",
+    "seed": 610079,
+    "failures": 3,
+    "lag": 3,
+    "pending": true,
+    "delay": 10,
+    "distractors": 1
+  }
+]

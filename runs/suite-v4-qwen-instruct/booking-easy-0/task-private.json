@@ -1,0 +1,14 @@
+{
+  "id": "booking-easy-0",
+  "family": "booking",
+  "level": "easy",
+  "seed": 820000,
+  "options": {
+    "failures": 0,
+    "lag": 0,
+    "distractors": 0,
+    "pending": false,
+    "delay": 2
+  },
+  "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+}

@@ -1,0 +1,792 @@
+[
+  {
+    "id": "booking-easy-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "strict_success": true,
+        "duplicate": 0,
+        "false_completion": 0,
+        "truncated": 0
+      },
+      "audit": {
+        "scenario": "normal",
+        "steps": 3,
+        "submission_attempts": 1,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 1,
+            "event": "confirmed",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Maple for request 9401",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Maple for request 9401",
+            "status": "confirmed",
+            "due": 3
+          }
+        ],
+        "initial_records": []
+      }
+    }
+  },
+  {
+    "id": "math-easy-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "valid_expression": true,
+        "equals_24": true,
+        "submitted": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "wiki-easy-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "target_article": true,
+        "used_article_links": true,
+        "allowed_path": true,
+        "within_hop_limit": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "email-easy-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "saved_draft": true,
+        "recipient": true,
+        "subject_event": true,
+        "subject_date": true,
+        "body_event": true,
+        "body_date": true,
+        "body_time": true,
+        "body_venue": true,
+        "no_superseded_fact": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "offers-easy-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "submitted": true,
+        "eligible_cheapest_vendor": true,
+        "correct_total": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "booking-easy-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "strict_success": true,
+        "duplicate": 0,
+        "false_completion": 0,
+        "truncated": 0
+      },
+      "audit": {
+        "scenario": "normal",
+        "steps": 5,
+        "submission_attempts": 2,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 3,
+            "event": "confirmed",
+            "id": "B001"
+          }
+        ],
+        "goal": "Book room Cedar for request 5362",
+        "records": [
+          {
+            "id": "B001",
+            "target": "Book room Cedar for request 5362",
+            "status": "confirmed",
+            "due": 5
+          }
+        ],
+        "initial_records": []
+      }
+    }
+  },
+  {
+    "id": "math-easy-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "valid_expression": true,
+        "equals_24": true,
+        "submitted": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "wiki-easy-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "target_article": true,
+        "used_article_links": true,
+        "allowed_path": true,
+        "within_hop_limit": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "email-easy-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "saved_draft": true,
+        "recipient": true,
+        "subject_event": true,
+        "subject_date": true,
+        "body_event": true,
+        "body_date": true,
+        "body_time": true,
+        "body_venue": true,
+        "no_superseded_fact": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "offers-easy-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "submitted": true,
+        "eligible_cheapest_vendor": true,
+        "correct_total": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "booking-medium-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "strict_success": true,
+        "duplicate": 0,
+        "false_completion": 0,
+        "truncated": 0
+      },
+      "audit": {
+        "scenario": "normal",
+        "steps": 10,
+        "submission_attempts": 2,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 4,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 4,
+            "event": "pending",
+            "id": "B002"
+          },
+          {
+            "tick": 7,
+            "event": "committed",
+            "id": "B002"
+          }
+        ],
+        "goal": "Book room Cedar for request 8328",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 8328 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B002",
+            "target": "Book room Cedar for request 8328",
+            "status": "confirmed",
+            "due": 7
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 8328 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "math-medium-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "valid_expression": true,
+        "equals_24": true,
+        "submitted": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "wiki-medium-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "target_article": true,
+        "used_article_links": true,
+        "allowed_path": true,
+        "within_hop_limit": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "email-medium-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "saved_draft": true,
+        "recipient": true,
+        "subject_event": true,
+        "subject_date": true,
+        "body_event": true,
+        "body_date": true,
+        "body_time": true,
+        "body_venue": true,
+        "no_superseded_fact": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "offers-medium-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "submitted": true,
+        "eligible_cheapest_vendor": true,
+        "correct_total": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "booking-medium-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "strict_success": true,
+        "duplicate": 0,
+        "false_completion": 0,
+        "truncated": 0
+      },
+      "audit": {
+        "scenario": "normal",
+        "steps": 7,
+        "submission_attempts": 3,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 3,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 5,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 5,
+            "event": "confirmed",
+            "id": "B003"
+          }
+        ],
+        "goal": "Book room Willow for request 2442",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Willow for request 2442 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Willow for request 2442 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Willow for request 2442",
+            "status": "confirmed",
+            "due": 8
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Willow for request 2442 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Willow for request 2442 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "math-medium-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "valid_expression": true,
+        "equals_24": true,
+        "submitted": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "wiki-medium-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "target_article": true,
+        "used_article_links": true,
+        "allowed_path": true,
+        "within_hop_limit": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "email-medium-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "saved_draft": true,
+        "recipient": true,
+        "subject_event": true,
+        "subject_date": true,
+        "body_event": true,
+        "body_date": true,
+        "body_time": true,
+        "body_venue": true,
+        "no_superseded_fact": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "offers-medium-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "submitted": true,
+        "eligible_cheapest_vendor": true,
+        "correct_total": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "booking-hard-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "strict_success": true,
+        "duplicate": 0,
+        "false_completion": 0,
+        "truncated": 0
+      },
+      "audit": {
+        "scenario": "normal",
+        "steps": 21,
+        "submission_attempts": 4,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 5,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 9,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 13,
+            "event": "submitted",
+            "attempt": 4
+          },
+          {
+            "tick": 13,
+            "event": "pending",
+            "id": "B004"
+          },
+          {
+            "tick": 17,
+            "event": "committed",
+            "id": "B004"
+          }
+        ],
+        "goal": "Book room Cedar for request 9537",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 9537 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 9537 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD2",
+            "target": "Book room Cedar for request 9537 / different request 2",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B004",
+            "target": "Book room Cedar for request 9537",
+            "status": "confirmed",
+            "due": 17
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Cedar for request 9537 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Cedar for request 9537 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD2",
+            "target": "Book room Cedar for request 9537 / different request 2",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "math-hard-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "valid_expression": true,
+        "equals_24": true,
+        "submitted": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "wiki-hard-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "target_article": true,
+        "used_article_links": true,
+        "allowed_path": true,
+        "within_hop_limit": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "email-hard-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "saved_draft": true,
+        "recipient": true,
+        "subject_event": true,
+        "subject_date": true,
+        "body_event": true,
+        "body_date": true,
+        "body_time": true,
+        "body_venue": true,
+        "no_superseded_fact": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "offers-hard-0",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "submitted": true,
+        "eligible_cheapest_vendor": true,
+        "correct_total": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "booking-hard-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "strict_success": true,
+        "duplicate": 0,
+        "false_completion": 0,
+        "truncated": 0
+      },
+      "audit": {
+        "scenario": "normal",
+        "steps": 18,
+        "submission_attempts": 3,
+        "confirmed_count": 1,
+        "pending_count": 0,
+        "duplicate_count": 0,
+        "strict_success": true,
+        "finished": true,
+        "truncated": false,
+        "events": [
+          {
+            "tick": 1,
+            "event": "submitted",
+            "attempt": 1
+          },
+          {
+            "tick": 5,
+            "event": "submitted",
+            "attempt": 2
+          },
+          {
+            "tick": 9,
+            "event": "submitted",
+            "attempt": 3
+          },
+          {
+            "tick": 9,
+            "event": "pending",
+            "id": "B003"
+          },
+          {
+            "tick": 14,
+            "event": "committed",
+            "id": "B003"
+          }
+        ],
+        "goal": "Book room Willow for request 9781",
+        "records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Willow for request 9781 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Willow for request 9781 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "B003",
+            "target": "Book room Willow for request 9781",
+            "status": "confirmed",
+            "due": 14
+          }
+        ],
+        "initial_records": [
+          {
+            "id": "OLD0",
+            "target": "Book room Willow for request 9781 / different request 0",
+            "status": "confirmed",
+            "due": 0
+          },
+          {
+            "id": "OLD1",
+            "target": "Book room Willow for request 9781 / different request 1",
+            "status": "confirmed",
+            "due": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "math-hard-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "valid_expression": true,
+        "equals_24": true,
+        "submitted": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "wiki-hard-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "target_article": true,
+        "used_article_links": true,
+        "allowed_path": true,
+        "within_hop_limit": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "email-hard-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "saved_draft": true,
+        "recipient": true,
+        "subject_event": true,
+        "subject_date": true,
+        "body_event": true,
+        "body_date": true,
+        "body_time": true,
+        "body_venue": true,
+        "no_superseded_fact": true
+      },
+      "violations": []
+    }
+  },
+  {
+    "id": "offers-hard-1",
+    "valid": true,
+    "evidence": {
+      "success": true,
+      "checks": {
+        "submitted": true,
+        "eligible_cheapest_vendor": true,
+        "correct_total": true
+      },
+      "violations": []
+    }
+  }
+]

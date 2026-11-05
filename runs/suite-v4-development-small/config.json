@@ -1,0 +1,103 @@
+{
+  "protocol": "TASK_SUITE_V4.md",
+  "model": {
+    "name": "qwen3-vl:2b-instruct",
+    "details": {
+      "parent_model": "dhiltgen/qwen3-vl:2b-instruct-q4_K_M-llamacpp",
+      "format": "gguf",
+      "family": "qwen3vl",
+      "families": [
+        "qwen3vl",
+        "clip"
+      ],
+      "parameter_size": "1.7B",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+    },
+    "renderer": "qwen3-vl-instruct",
+    "parser": "qwen3-vl-instruct",
+    "digest": "afc393e3572c07db0bc84aa460d928a16c75f3fbb9ca9e0dccc4fbd2dafb573e"
+  },
+  "prompt": "You operate a browser using screenshots. Complete the user's task carefully. Return exactly one JSON action. Choose only the NEXT action; keep reasoning brief. Coordinates are normalized 0..1000, not pixels. Tools: click(x,y), type(text) into the currently focused field, key(text) where text is enter/tab/escape/backspace/select_all, scroll(y) in pixels (positive down, negative up), switch_tab(tab) by index, wait, done. First click the intended field before typing. Read saved status after submitting. Do not declare done until the requested artifact exists. You cannot execute code, inspect DOM, use a calculator, or navigate directly to URLs. For Wikipedia only clicks on article hyperlinks and scrolling are allowed. Use memory to retain facts you actually saw, especially before switching tabs; relevant memory is carried into the next step. Do not invent facts. Do not erase useful memory when switching tabs. A screenshot shows only the active tab.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "action": {
+        "type": "string",
+        "enum": [
+          "click",
+          "type",
+          "key",
+          "scroll",
+          "switch_tab",
+          "wait",
+          "done"
+        ]
+      },
+      "x": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      "y": {
+        "type": "integer",
+        "minimum": -1200,
+        "maximum": 1200
+      },
+      "text": {
+        "type": "string",
+        "maxLength": 2000
+      },
+      "tab": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 3
+      },
+      "memory": {
+        "type": "string",
+        "maxLength": 1200
+      }
+    },
+    "required": [
+      "action",
+      "memory"
+    ],
+    "additionalProperties": false
+  },
+  "temperature": 0,
+  "model_seed": 42,
+  "context": 3072,
+  "image_max_dimension": 768,
+  "prompt_batch": 64,
+  "generated_token_cap": 768,
+  "max_actions": 24,
+  "wall_limit": 300,
+  "calibration": true,
+  "cases": 1,
+  "observation": "current screenshot, explicit self-written memory, last six actions, public tab metadata",
+  "source_hashes": {
+    "suite_browser.py": "0effecff6fb487c6af6c49caf112b330c6da4b9ec4892fb8682c4afcad986163",
+    "screenshot_agent.py": "4aef448fd0020b68eee5b7831fc49f4db286a9650dea665f39f1f617b3e148f6",
+    "tasks.py": "e34c4f086785b43d6ce334b17d5406a4a29a01907113f0d4bf3703eb5d3862cb",
+    "env.py": "d9789ace027f6538bd915dedfeb9c4dda162b7638050a956943cdf4c1830e061",
+    "evaluation.py": "7dc275279e907ef711b1081c1f82b97abe37dd7a988c876de5a5e1f1faec7ec3",
+    "__init__.py": "6ba8d1284a2894bb8a726653e2bdb12880d5f0486900dfbb0b4369be6801c347",
+    "suite_eval.py": "f52e19cc1d0b0be716a441719ad58144372bef5f54cccd1585ae375c181c3289",
+    "browser.py": "ff980481be9848b0d1628082f308bdbc61f63b12904584f5fa5cb210f3906147",
+    "experiment.py": "7cca276f1b7d70603d026f6560d7d021f0677910066bd4442f7eee7e35a56364",
+    "memory_control.py": "bbd04fed66e8e8b05548bc2468d3ba559e5d4476b5de6c5354934fb64114c2ee",
+    "reference.py": "dd7ab9474a53c2616351423a48320bcdb0e4b917d54980352f7d00349fde1534",
+    "resources.py": "bf99c6d89ae9be95ef37fb5a6816e1d861bb64708d7b4020098e21d9b89f180f",
+    "evaluation_report.py": "af046b1467be5fe5d4eb7250284fc8894baed32cee30203edf623b2ffdc00c5a",
+    "learning.py": "dd8600fa15d47a57010fc4328efbd32df75bf1fd7d47b4799dbfd24e8f85fbc4",
+    "perception.py": "4c1e4a97b47b133a180725708c5ad0f30766575f9b00b1a88d79096471ad1729",
+    "demo.py": "4525abf3f7fad2f6a0d8231e92f88a35978ec93a1231337875e19ff6595f48d9",
+    "challenge.py": "71a3bda092a8e155b9b8fde4638e535444631b80a5f714dc126cd0f95f5cb296",
+    "evaluator.py": "c0456e16d5f077000f0c9766a5baeb2487d9b4d8914bfbcc7f5c31575d20bfab",
+    "__main__.py": "595f16bdc38b170bca79f6791f1eb31473bbd54977ecb64d1fe9bd576a755726",
+    "suite_env.py": "0c12b0041d6116679f9d8e813dfa5d9cd61a4756911437a6dcf963183bb21cd7",
+    "hardening.py": "f24ecdd329b0136ecfc59634f8e07d43a1161dd7da83e9e893d02b05a3e9b075",
+    "gym_env.py": "81c2004242855f4937ad4372712a71760e2d658e140155ef3f601eb59b070db1",
+    "reporting.py": "56d63c01c65f3602ac98eb57ffd7ce3e0f40760fab5aa20cacf05757fabcb578"
+  }
+}

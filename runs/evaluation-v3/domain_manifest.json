@@ -1,0 +1,317 @@
+[
+  {
+    "case_id": "domain-f0-l0-direct",
+    "seed": 410000,
+    "failures": 0,
+    "lag": 0,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l0-p2",
+    "seed": 410001,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l0-p3",
+    "seed": 410002,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l0-p4",
+    "seed": 410003,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l0-p5",
+    "seed": 410004,
+    "failures": 0,
+    "lag": 0,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l1-direct",
+    "seed": 410005,
+    "failures": 0,
+    "lag": 1,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l1-p2",
+    "seed": 410006,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l1-p3",
+    "seed": 410007,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l1-p4",
+    "seed": 410008,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l1-p5",
+    "seed": 410009,
+    "failures": 0,
+    "lag": 1,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l2-direct",
+    "seed": 410010,
+    "failures": 0,
+    "lag": 2,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l2-p2",
+    "seed": 410011,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l2-p3",
+    "seed": 410012,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l2-p4",
+    "seed": 410013,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l2-p5",
+    "seed": 410014,
+    "failures": 0,
+    "lag": 2,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l3-direct",
+    "seed": 410015,
+    "failures": 0,
+    "lag": 3,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l3-p2",
+    "seed": 410016,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l3-p3",
+    "seed": 410017,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l3-p4",
+    "seed": 410018,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f0-l3-p5",
+    "seed": 410019,
+    "failures": 0,
+    "lag": 3,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f1-l0-direct",
+    "seed": 410020,
+    "failures": 1,
+    "lag": 0,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f1-l0-p2",
+    "seed": 410021,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f1-l0-p3",
+    "seed": 410022,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f1-l0-p4",
+    "seed": 410023,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f1-l0-p5",
+    "seed": 410024,
+    "failures": 1,
+    "lag": 0,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f2-l0-direct",
+    "seed": 410025,
+    "failures": 2,
+    "lag": 0,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f2-l0-p2",
+    "seed": 410026,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f2-l0-p3",
+    "seed": 410027,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f2-l0-p4",
+    "seed": 410028,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f2-l0-p5",
+    "seed": 410029,
+    "failures": 2,
+    "lag": 0,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f3-l0-direct",
+    "seed": 410030,
+    "failures": 3,
+    "lag": 0,
+    "pending": false,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f3-l0-p2",
+    "seed": 410031,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 2,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f3-l0-p3",
+    "seed": 410032,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 3,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f3-l0-p4",
+    "seed": 410033,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 4,
+    "distractors": 1
+  },
+  {
+    "case_id": "domain-f3-l0-p5",
+    "seed": 410034,
+    "failures": 3,
+    "lag": 0,
+    "pending": true,
+    "delay": 5,
+    "distractors": 1
+  }
+]

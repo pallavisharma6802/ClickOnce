@@ -7,7 +7,7 @@ name = "click-once-rl"
 version = "0.1.0"
 description = "Ambiguous-outcome browser environment for reinforcement-learning agents"
 requires-python = ">=3.11"
-dependencies = ["gymnasium==0.28.1", "numpy==2.4.6", "playwright==1.64.1", "psutil==7.2.2"]
+dependencies = ["gymnasium==0.28.1", "numpy==2.4.6", "playwright==1.64.1", "psutil==7.2.2", "pillow==13.0.0"]
 
 [project.optional-dependencies]
 report = ["matplotlib==3.10.8"]

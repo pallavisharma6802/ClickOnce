@@ -1,0 +1,32 @@
+{
+  "episode_counts": {
+    "train": 500,
+    "validation": 200,
+    "test": 200
+  },
+  "unique_control_cells": {
+    "train": 72,
+    "validation": 54,
+    "test": 56
+  },
+  "test_cells_seen_in_train": 51,
+  "seed_comparison": [
+    {
+      "seed": 22,
+      "outcome_agreement": 200,
+      "different_action_counts": 146,
+      "cases": 200
+    },
+    {
+      "seed": 33,
+      "outcome_agreement": 200,
+      "different_action_counts": 64,
+      "cases": 200
+    }
+  ],
+  "checkpoint_sha256": {
+    "11": "f2073dfd5e1da2e05903d2ead2114d4c2e1a50e9b5b4b4594754382e5f122384",
+    "22": "c54189ad87b5d51fa1e46b28a49f11891f6e8988608cc437e28ce77cbbe96ae7",
+    "33": "61af5d8d5c6a18fd7a0ff6992eb9ca1126d95002fac92f8d9af821096fc67b06"
+  }
+}

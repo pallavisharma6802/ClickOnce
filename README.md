@@ -2,17 +2,18 @@
 
 **A timeout is not a reason to click again.**
 
-A local RL environment for computer-use agents that must complete a booking exactly once despite ambiguous feedback. The same timeout can hide failure, pending work, or success. An independent evaluator checks backend records while the agent sees only the interface.
+A local browser environment and evaluation suite for computer-use agents: booking, math puzzles, Wikipedia navigation, source-to-email drafting and vendor comparison. Independent graders check saved outcomes; agents see the interface. The original booking environment also supports lightweight tabular RL experiments.
 
-[Open the V2 results and browser replays](reports/v2/index.html) · [Read the V2 report](reports/v2/REPORT.md) · [Original V1 study](reports/index.html) · [Architecture and plan](docs/PLAN.md)
+[Read the evaluation audit](reports/evaluation/index.html) · [Historical V2 browser replays](reports/v2/index.html) · [Read the V2 report](reports/v2/REPORT.md) · [Original V1 study](reports/index.html) · [Architecture and plan](docs/PLAN.md)
 
 ## Scope
 
-This completed research prototype runs on macOS **inside local Chrome**. It does not control Finder, Calendar, or other native Mac applications. RL trains a small decision policy; Qwen is a frozen screenshot reader. It is not a production-ready general desktop agent or a VLM fine-tuning project.
+This research prototype runs on macOS **inside local Chrome**. It does not control Finder, Calendar, or other native Mac applications. Historical RL experiments train a small decision policy. The new suite uses frozen Qwen to choose browser actions from screenshots. It is not a production-ready general desktop agent or a VLM fine-tuning project.
 
 ## What actually runs
 
-- A deterministic simulator with five scenarios, four bounded actions, seeded resets and a Gymnasium adapter.
+- Five browser task families, 30 authored cases, screenshot observations, mouse/keyboard actions and a Gymnasium adapter.
+- The original deterministic booking simulator with seeded faults and a small action space for CPU RL.
 - A real local browser interface, screenshot recording, and offline replay viewer.
 - CPU tabular Q-learning, memory/no-memory ablations, two reward designs, and three independent training seeds per arm.
 - A separate, record-level evaluator that ignores reward success labels and catches duplicates and incorrect task identities.
@@ -20,23 +21,17 @@ This completed research prototype runs on macOS **inside local Chrome**. It does
 
 **Training target:** the small Q-learning policy. VLM weights were not trained. Main experiments use structured public UI observations; visual perception is evaluated separately and connected to a browser demo. This is not an OSWorld benchmark result or a general-purpose web agent.
 
-## Current result: a harder V2 experiment
+## Evaluation audit and broader browser suite
 
-The original 100% score was a learnability check on a tiny state machine, not general computer-use capability. In probe trajectories, all eight test feature states also appeared in training. V2 adds repeated failures, unrelated records and visibly stale history, with independent checks that unrelated bookings are preserved.
+The repeated V2 percentages came from a narrow control grid: 51 of the 56 distinct test control configurations were already represented in training. V1/V2 below are historical warm-ups, not evidence of broad computer-use skill.
 
-| Policy | New held-out success |
-|---|---|
-| Frozen V1 learned policy | 46% |
-| Target-aware RL, no freshness | 71.5% / 71.5% / 71.5% |
-| Target + freshness-aware RL | 86% / 100% / 100% |
-| Freshness-aware scripted reference | 100% |
+The [evaluation audit](reports/evaluation/REPORT.md) uses ten training seeds, disjoint control compositions, longer-delay extrapolation and an independent transition interpreter. The counter-memory control exposes an important representation confound. These remain tabular RL experiments, not Qwen scores.
 
-V2 trains six policies for 10000 episodes each on new train seeds and evaluates 200 paired new test worlds per policy. This remains an engineered-feature control study, not VLM RL or held-out app-template generalization. See [the frozen protocol](docs/V2_PROTOCOL.md) and [all per-tier results](reports/v2/REPORT.md).
+The [five-family protocol](docs/TASK_SUITE_V4.md) adds 30 authored cases: exactly-once booking, arithmetic puzzles, live Wikipedia hyperlink navigation, source-to-email drafting, and vendor comparison. Each family has easy/medium/hard variants and independent artifact checks. An actual frozen local Qwen screenshot agent receives pixels and its own memory; it cannot read DOM or hidden answers. Four task sites are local benchmark applications; Wikipedia is live. Drafts do not use Gmail or send mail.
 
-```sh
-uv run python -m click_once.hardening --output runs/new-v2 --episodes 10000
-uv run --extra report python scripts/report_v2.py --experiment runs/new-v2 --output reports/new-v2
-```
+**Execution status:** [browser report and screenshot replays](reports/browser-suite/index.html). All 30 cases passed privileged solvability checks. One completed Qwen attempt failed (24 booking submissions, 23 duplicates); the next case was interrupted. The batch was stopped as global swap grew from 10.0 GB to 18.8 GB and latency increased on the 8 GB Mac. The model is unloaded. Twenty-eight cases remain unrun; no full-suite score is claimed. The old engineered-state scores are not substituted for missing Qwen evaluation.
+
+[Run guide](docs/RUN_BROWSER_SUITE.md) · [All 102 tests passing, including Chrome](reports/tests-current.txt). A complete model benchmark needs a deployment with enough memory; the current local batch must not automatically restart.
 
 ## Original V1 result (preserved warm-up)
 
@@ -77,7 +72,7 @@ Full real-browser suite:
 CLICKONCE_BROWSER_TESTS=1 uv run python -m unittest discover -s tests -v
 ```
 
-The CLI smoke test includes bounded RL training and checkpoint/evaluation artifacts. See `docs/TEST_PLAN.md` and `reports/tests-final.txt` for actual verification.
+The CLI smoke test includes bounded RL training and checkpoint/evaluation artifacts. See [current test results](reports/tests-current.txt) and [the test plan](docs/TEST_PLAN.md).
 
 ## One-command reproduction
 

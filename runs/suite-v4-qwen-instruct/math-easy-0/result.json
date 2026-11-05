@@ -1,0 +1,8 @@
+{
+  "id": "math-easy-0",
+  "family": "math",
+  "level": "easy",
+  "success": false,
+  "end_condition": "interrupted",
+  "actions": 2
+}

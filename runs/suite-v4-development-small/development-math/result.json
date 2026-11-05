@@ -1,0 +1,20 @@
+{
+  "id": "development-math",
+  "family": "math",
+  "level": "easy",
+  "end_condition": "agent_protocol_error",
+  "success": false,
+  "grade": {
+    "success": false,
+    "checks": {
+      "valid_expression": false,
+      "equals_24": false,
+      "submitted": false
+    },
+    "violations": []
+  },
+  "actions": 0,
+  "wall_seconds": 12.55856783298077,
+  "model_seconds": 0,
+  "generated_tokens": 0
+}

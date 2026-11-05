@@ -1,0 +1,6 @@
+{
+  "id": "booking-easy-0",
+  "family": "booking",
+  "level": "easy",
+  "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+}

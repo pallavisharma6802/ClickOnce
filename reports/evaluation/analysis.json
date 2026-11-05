@@ -1,0 +1,465 @@
+{
+  "legacy_audit": {
+    "episode_counts": {
+      "train": 500,
+      "validation": 200,
+      "test": 200
+    },
+    "unique_control_cells": {
+      "train": 72,
+      "validation": 54,
+      "test": 56
+    },
+    "test_cells_seen_in_train": 51,
+    "seed_comparison": [
+      {
+        "seed": 22,
+        "outcome_agreement": 200,
+        "different_action_counts": 146,
+        "cases": 200
+      },
+      {
+        "seed": 33,
+        "outcome_agreement": 200,
+        "different_action_counts": 64,
+        "cases": 200
+      }
+    ],
+    "checkpoint_sha256": {
+      "11": "f2073dfd5e1da2e05903d2ead2114d4c2e1a50e9b5b4b4594754382e5f122384",
+      "22": "c54189ad87b5d51fa1e46b28a49f11891f6e8988608cc437e28ce77cbbe96ae7",
+      "33": "61af5d8d5c6a18fd7a0ff6992eb9ca1126d95002fac92f8d9af821096fc67b06"
+    }
+  },
+  "statistics": [
+    {
+      "partition": "domain",
+      "arm": "target_only",
+      "mean": 0.6857142857142857,
+      "std": 0.2760262237369417,
+      "minimum": 0,
+      "maximum": 0.8571428571428571,
+      "low": 0.5,
+      "high": 0.8142857142857143,
+      "n_training_seeds": 10,
+      "per_seed": [
+        0.8571428571428571,
+        0.8571428571428571,
+        0.7142857142857143,
+        0.7142857142857143,
+        0.8571428571428571,
+        0,
+        0.8571428571428571,
+        0.8571428571428571,
+        0.7142857142857143,
+        0.42857142857142855
+      ],
+      "unique_outcome_vectors": 4,
+      "unique_behavior_vectors": 9,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "domain",
+      "arm": "freshness",
+      "mean": 1,
+      "std": 0.0,
+      "minimum": 1,
+      "maximum": 1,
+      "low": 1,
+      "high": 1,
+      "n_training_seeds": 10,
+      "per_seed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_outcome_vectors": 1,
+      "unique_behavior_vectors": 10,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "domain",
+      "arm": "elapsed",
+      "mean": 0.9857142857142858,
+      "std": 0.04517539514526258,
+      "minimum": 0.8571428571428571,
+      "maximum": 1,
+      "low": 0.9571428571428571,
+      "high": 1,
+      "n_training_seeds": 10,
+      "per_seed": [
+        1,
+        0.8571428571428571,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_outcome_vectors": 2,
+      "unique_behavior_vectors": 9,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "composition",
+      "arm": "target_only",
+      "mean": 0.4533333333333333,
+      "std": 0.24504975559271502,
+      "minimum": 0,
+      "maximum": 0.6666666666666666,
+      "low": 0.30666666666666664,
+      "high": 0.5866666666666667,
+      "n_training_seeds": 10,
+      "per_seed": [
+        0.6666666666666666,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.6666666666666666,
+        0,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.2
+      ],
+      "unique_outcome_vectors": 4,
+      "unique_behavior_vectors": 9,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "composition",
+      "arm": "freshness",
+      "mean": 1,
+      "std": 0.0,
+      "minimum": 1,
+      "maximum": 1,
+      "low": 1,
+      "high": 1,
+      "n_training_seeds": 10,
+      "per_seed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_outcome_vectors": 1,
+      "unique_behavior_vectors": 10,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "composition",
+      "arm": "elapsed",
+      "mean": 0.9933333333333333,
+      "std": 0.02108185106778919,
+      "minimum": 0.9333333333333333,
+      "maximum": 1,
+      "low": 0.98,
+      "high": 1,
+      "n_training_seeds": 10,
+      "per_seed": [
+        1,
+        0.9333333333333333,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_outcome_vectors": 2,
+      "unique_behavior_vectors": 9,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "timing",
+      "arm": "target_only",
+      "mean": 0.45,
+      "std": 0.32914029430219166,
+      "minimum": 0,
+      "maximum": 0.75,
+      "low": 0.25,
+      "high": 0.625,
+      "n_training_seeds": 10,
+      "per_seed": [
+        0.75,
+        0,
+        0.5,
+        0.5,
+        0.75,
+        0,
+        0.75,
+        0.75,
+        0.5,
+        0
+      ],
+      "unique_outcome_vectors": 3,
+      "unique_behavior_vectors": 9,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "timing",
+      "arm": "freshness",
+      "mean": 1,
+      "std": 0.0,
+      "minimum": 1,
+      "maximum": 1,
+      "low": 1,
+      "high": 1,
+      "n_training_seeds": 10,
+      "per_seed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_outcome_vectors": 1,
+      "unique_behavior_vectors": 10,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    },
+    {
+      "partition": "timing",
+      "arm": "elapsed",
+      "mean": 0.045,
+      "std": 0.10124228365658293,
+      "minimum": 0,
+      "maximum": 0.3,
+      "low": 0,
+      "high": 0.105,
+      "n_training_seeds": 10,
+      "per_seed": [
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0.15,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_outcome_vectors": 3,
+      "unique_behavior_vectors": 7,
+      "unseen_episode_rate": 0.0,
+      "unseen_step_rate": 0.0
+    }
+  ],
+  "independently_replayed_episodes": 5920,
+  "coverage": {
+    "domain/target_only": {
+      "steps": 3835,
+      "unseen_steps": 0,
+      "episodes": 350,
+      "unseen_episodes": 0
+    },
+    "domain/freshness": {
+      "steps": 2721,
+      "unseen_steps": 0,
+      "episodes": 350,
+      "unseen_episodes": 0
+    },
+    "domain/target_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "domain/fresh_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "domain/naive": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "domain/random": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "domain/frozen_v2_target": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "domain/frozen_v2_fresh": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/target_only": {
+      "steps": 6177,
+      "unseen_steps": 0,
+      "episodes": 450,
+      "unseen_episodes": 0
+    },
+    "composition/freshness": {
+      "steps": 5639,
+      "unseen_steps": 0,
+      "episodes": 450,
+      "unseen_episodes": 0
+    },
+    "composition/target_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/fresh_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/naive": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/random": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/frozen_v2_target": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/frozen_v2_fresh": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/target_only": {
+      "steps": 11916,
+      "unseen_steps": 0,
+      "episodes": 800,
+      "unseen_episodes": 0
+    },
+    "timing/freshness": {
+      "steps": 12420,
+      "unseen_steps": 0,
+      "episodes": 800,
+      "unseen_episodes": 0
+    },
+    "timing/target_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/fresh_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/naive": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/random": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/frozen_v2_target": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/frozen_v2_fresh": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "domain/elapsed": {
+      "steps": 3046,
+      "unseen_steps": 0,
+      "episodes": 350,
+      "unseen_episodes": 0
+    },
+    "domain/conservative_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "composition/elapsed": {
+      "steps": 5718,
+      "unseen_steps": 0,
+      "episodes": 450,
+      "unseen_episodes": 0
+    },
+    "composition/conservative_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    },
+    "timing/elapsed": {
+      "steps": 9020,
+      "unseen_steps": 0,
+      "episodes": 800,
+      "unseen_episodes": 0
+    },
+    "timing/conservative_rule": {
+      "steps": 0,
+      "unseen_steps": 0,
+      "episodes": 0,
+      "unseen_episodes": 0
+    }
+  },
+  "scope": "one synthetic booking task family; engineered public-state RL, not Qwen task solving",
+  "post_hoc_arm": "elapsed",
+  "perfect_seed_probability_exact_lower_95": 0.6915028921812392
+}

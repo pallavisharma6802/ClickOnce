@@ -1,0 +1,14 @@
+{
+  "finished": false,
+  "planned": 30,
+  "completed": 1,
+  "interrupted": 1,
+  "unattempted": 28,
+  "stop_reason": "Manual resource-safety stop after one completed case: global swap grew rapidly and per-action latency increased. No sustained-critical-pressure auto-stop was triggered. Model was unloaded; no automatic restart.",
+  "initial_swap_bytes": 10007019520,
+  "final_swap_bytes": 18839044096,
+  "pressure_levels": [
+    1,
+    2
+  ]
+}

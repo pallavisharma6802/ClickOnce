@@ -21,3 +21,15 @@ runs/*
 !runs/vision-v2/
 runs/**/cache/
 runs/**/perception-cache/
+
+# Audited structural evaluation and actual screenshot-agent evidence.
+!runs/evaluation-v3/
+!runs/evaluation-v3-memory-control/
+!runs/evaluation-v3-resources/
+!runs/evaluation-v3-memory-control-resources/
+!runs/suite-v4-validation/
+!runs/suite-v4-qwen-instruct/
+!runs/suite-v4-development/
+!runs/suite-v4-development-instruct/
+!runs/suite-v4-development-small/
+!runs/suite-v4-development-schema/

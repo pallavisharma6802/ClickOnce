@@ -1,0 +1,104 @@
+{
+  "domain": {
+    "target_only": {
+      "mean": 0.6857142857142857,
+      "std": 0.2760262237369417,
+      "minimum": 0,
+      "maximum": 0.8571428571428571,
+      "low": 0.5,
+      "high": 0.8142857142857143,
+      "n_training_seeds": 10
+    },
+    "freshness": {
+      "mean": 1,
+      "std": 0.0,
+      "minimum": 1,
+      "maximum": 1,
+      "low": 1,
+      "high": 1,
+      "n_training_seeds": 10
+    },
+    "paired": {
+      "difference": {
+        "mean": 0.3142857142857143,
+        "std": 0.2760262237369417,
+        "minimum": 0.1428571428571429,
+        "maximum": 1,
+        "low": 0.18571428571428575,
+        "high": 0.5,
+        "n_training_seeds": 10
+      },
+      "wins": 10,
+      "losses": 0,
+      "ties": 0
+    }
+  },
+  "composition": {
+    "target_only": {
+      "mean": 0.4533333333333333,
+      "std": 0.24504975559271502,
+      "minimum": 0,
+      "maximum": 0.6666666666666666,
+      "low": 0.30666666666666664,
+      "high": 0.5866666666666667,
+      "n_training_seeds": 10
+    },
+    "freshness": {
+      "mean": 1,
+      "std": 0.0,
+      "minimum": 1,
+      "maximum": 1,
+      "low": 1,
+      "high": 1,
+      "n_training_seeds": 10
+    },
+    "paired": {
+      "difference": {
+        "mean": 0.5466666666666667,
+        "std": 0.24504975559271505,
+        "minimum": 0.33333333333333337,
+        "maximum": 1,
+        "low": 0.4133333333333334,
+        "high": 0.6933333333333334,
+        "n_training_seeds": 10
+      },
+      "wins": 10,
+      "losses": 0,
+      "ties": 0
+    }
+  },
+  "timing": {
+    "target_only": {
+      "mean": 0.45,
+      "std": 0.32914029430219166,
+      "minimum": 0,
+      "maximum": 0.75,
+      "low": 0.25,
+      "high": 0.625,
+      "n_training_seeds": 10
+    },
+    "freshness": {
+      "mean": 1,
+      "std": 0.0,
+      "minimum": 1,
+      "maximum": 1,
+      "low": 1,
+      "high": 1,
+      "n_training_seeds": 10
+    },
+    "paired": {
+      "difference": {
+        "mean": 0.55,
+        "std": 0.32914029430219166,
+        "minimum": 0.25,
+        "maximum": 1,
+        "low": 0.375,
+        "high": 0.75,
+        "n_training_seeds": 10
+      },
+      "wins": 10,
+      "losses": 0,
+      "ties": 0
+    }
+  }
+}

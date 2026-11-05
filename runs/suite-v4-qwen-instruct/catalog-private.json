@@ -1,0 +1,669 @@
+[
+  {
+    "id": "booking-easy-0",
+    "family": "booking",
+    "level": "easy",
+    "seed": 820000,
+    "options": {
+      "failures": 0,
+      "lag": 0,
+      "distractors": 0,
+      "pending": false,
+      "delay": 2
+    },
+    "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+  },
+  {
+    "id": "math-easy-0",
+    "family": "math",
+    "level": "easy",
+    "seed": 820000,
+    "numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+  },
+  {
+    "id": "wiki-easy-0",
+    "family": "wiki",
+    "level": "easy",
+    "seed": 820000,
+    "start": "Python_(programming_language)",
+    "target": "Guido_van_Rossum",
+    "witness": [
+      "Python_(programming_language)",
+      "Guido_van_Rossum"
+    ],
+    "max_hops": 4,
+    "instruction": "Starting on Wikipedia article Python (programming language), reach the article Guido van Rossum by clicking article hyperlinks only. Do not use search, type URLs, or visit other websites. At most four article-to-article transitions. Stop when the target article is open."
+  },
+  {
+    "id": "email-easy-0",
+    "family": "email",
+    "level": "easy",
+    "seed": 820000,
+    "event": "Cedar Workshop",
+    "date": "2026-11-17",
+    "date_aliases": [
+      "2026-11-17",
+      "November 17, 2026",
+      "November 17"
+    ],
+    "time": "14:30",
+    "venue": "Cedar Hall",
+    "recipient": "coordinator@example.com",
+    "old_date": "2026-11-16",
+    "suggestion": "2026-11-18",
+    "old_venue": "Old Annex",
+    "forbidden": [],
+    "instruction": "Use the source page(s) in the available tabs to draft an email to coordinator@example.com. Subject must include the event name and confirmed date. Body must include the event name, confirmed date, time and current venue. Confirmed organizer updates override older announcements; attendee suggestions are not confirmations. For multiple sources, check the venue bulletin too. Save the draft in Mail Draft. Do not mention superseded or suggested dates or obsolete venues. Do not send anything."
+  },
+  {
+    "id": "offers-easy-0",
+    "family": "offers",
+    "level": "easy",
+    "seed": 820000,
+    "quantity": 1,
+    "offers": [
+      {
+        "vendor": "Aster",
+        "price": 1800,
+        "shipping": 200,
+        "discount": 0,
+        "stock": true,
+        "member": true
+      },
+      {
+        "vendor": "Birch",
+        "price": 2063,
+        "shipping": 450,
+        "discount": 0,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Cobalt",
+        "price": 2326,
+        "shipping": 700,
+        "discount": 0,
+        "stock": true,
+        "member": true
+      }
+    ],
+    "instruction": "Compare the in-stock vendor offers in the source tab(s). Use the displayed quantity. Compute each eligible vendor total after the listed discount and shipping, then submit the cheapest vendor name and its total in dollars in Quote Report. For hard cases, apply the separate pricing-policy page. Round percentage discounts to the nearest cent, half up. No purchasing is needed."
+  },
+  {
+    "id": "booking-easy-1",
+    "family": "booking",
+    "level": "easy",
+    "seed": 820001,
+    "options": {
+      "failures": 1,
+      "lag": 0,
+      "distractors": 0,
+      "pending": false,
+      "delay": 2
+    },
+    "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+  },
+  {
+    "id": "math-easy-1",
+    "family": "math",
+    "level": "easy",
+    "seed": 820001,
+    "numbers": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+  },
+  {
+    "id": "wiki-easy-1",
+    "family": "wiki",
+    "level": "easy",
+    "seed": 820001,
+    "start": "Albert_Einstein",
+    "target": "Theory_of_relativity",
+    "witness": [
+      "Albert_Einstein",
+      "Theory_of_relativity"
+    ],
+    "max_hops": 4,
+    "instruction": "Starting on Wikipedia article Albert Einstein, reach the article Theory of relativity by clicking article hyperlinks only. Do not use search, type URLs, or visit other websites. At most four article-to-article transitions. Stop when the target article is open."
+  },
+  {
+    "id": "email-easy-1",
+    "family": "email",
+    "level": "easy",
+    "seed": 820001,
+    "event": "Harbor Meetup",
+    "date": "2026-11-18",
+    "date_aliases": [
+      "2026-11-18",
+      "November 18, 2026",
+      "November 18"
+    ],
+    "time": "15:30",
+    "venue": "Harbor Room",
+    "recipient": "coordinator@example.com",
+    "old_date": "2026-11-17",
+    "suggestion": "2026-11-19",
+    "old_venue": "Old Annex",
+    "forbidden": [],
+    "instruction": "Use the source page(s) in the available tabs to draft an email to coordinator@example.com. Subject must include the event name and confirmed date. Body must include the event name, confirmed date, time and current venue. Confirmed organizer updates override older announcements; attendee suggestions are not confirmations. For multiple sources, check the venue bulletin too. Save the draft in Mail Draft. Do not mention superseded or suggested dates or obsolete venues. Do not send anything."
+  },
+  {
+    "id": "offers-easy-1",
+    "family": "offers",
+    "level": "easy",
+    "seed": 820001,
+    "quantity": 1,
+    "offers": [
+      {
+        "vendor": "Aster",
+        "price": 1937,
+        "shipping": 200,
+        "discount": 0,
+        "stock": true,
+        "member": true
+      },
+      {
+        "vendor": "Birch",
+        "price": 2200,
+        "shipping": 450,
+        "discount": 0,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Cobalt",
+        "price": 2463,
+        "shipping": 700,
+        "discount": 0,
+        "stock": true,
+        "member": true
+      }
+    ],
+    "instruction": "Compare the in-stock vendor offers in the source tab(s). Use the displayed quantity. Compute each eligible vendor total after the listed discount and shipping, then submit the cheapest vendor name and its total in dollars in Quote Report. For hard cases, apply the separate pricing-policy page. Round percentage discounts to the nearest cent, half up. No purchasing is needed."
+  },
+  {
+    "id": "booking-medium-0",
+    "family": "booking",
+    "level": "medium",
+    "seed": 820002,
+    "options": {
+      "failures": 1,
+      "lag": 2,
+      "distractors": 1,
+      "pending": true,
+      "delay": 3
+    },
+    "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+  },
+  {
+    "id": "math-medium-0",
+    "family": "math",
+    "level": "medium",
+    "seed": 820002,
+    "numbers": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+  },
+  {
+    "id": "wiki-medium-0",
+    "family": "wiki",
+    "level": "medium",
+    "seed": 820002,
+    "start": "Solar_System",
+    "target": "Atmosphere_of_Earth",
+    "witness": [
+      "Solar_System",
+      "Earth",
+      "Atmosphere_of_Earth"
+    ],
+    "max_hops": 4,
+    "instruction": "Starting on Wikipedia article Solar System, reach the article Atmosphere of Earth by clicking article hyperlinks only. Do not use search, type URLs, or visit other websites. At most four article-to-article transitions. Stop when the target article is open."
+  },
+  {
+    "id": "email-medium-0",
+    "family": "email",
+    "level": "medium",
+    "seed": 820002,
+    "event": "Orion Briefing",
+    "date": "2026-11-19",
+    "date_aliases": [
+      "2026-11-19",
+      "November 19, 2026",
+      "November 19"
+    ],
+    "time": "14:30",
+    "venue": "Orion Center",
+    "recipient": "coordinator@example.com",
+    "old_date": "2026-11-18",
+    "suggestion": "2026-11-20",
+    "old_venue": "Old Annex",
+    "forbidden": [
+      "2026-11-18",
+      "2026-11-20",
+      "November 18",
+      "November 20"
+    ],
+    "instruction": "Use the source page(s) in the available tabs to draft an email to coordinator@example.com. Subject must include the event name and confirmed date. Body must include the event name, confirmed date, time and current venue. Confirmed organizer updates override older announcements; attendee suggestions are not confirmations. For multiple sources, check the venue bulletin too. Save the draft in Mail Draft. Do not mention superseded or suggested dates or obsolete venues. Do not send anything."
+  },
+  {
+    "id": "offers-medium-0",
+    "family": "offers",
+    "level": "medium",
+    "seed": 820002,
+    "quantity": 3,
+    "offers": [
+      {
+        "vendor": "Aster",
+        "price": 2074,
+        "shipping": 200,
+        "discount": 0,
+        "stock": false,
+        "member": true
+      },
+      {
+        "vendor": "Birch",
+        "price": 2337,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Cobalt",
+        "price": 2600,
+        "shipping": 700,
+        "discount": 10,
+        "stock": true,
+        "member": true
+      },
+      {
+        "vendor": "Delta",
+        "price": 2863,
+        "shipping": 200,
+        "discount": 0,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Elm",
+        "price": 3126,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": true
+      }
+    ],
+    "instruction": "Compare the in-stock vendor offers in the source tab(s). Use the displayed quantity. Compute each eligible vendor total after the listed discount and shipping, then submit the cheapest vendor name and its total in dollars in Quote Report. For hard cases, apply the separate pricing-policy page. Round percentage discounts to the nearest cent, half up. No purchasing is needed."
+  },
+  {
+    "id": "booking-medium-1",
+    "family": "booking",
+    "level": "medium",
+    "seed": 820003,
+    "options": {
+      "failures": 2,
+      "lag": 1,
+      "distractors": 2,
+      "pending": false,
+      "delay": 3
+    },
+    "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+  },
+  {
+    "id": "math-medium-1",
+    "family": "math",
+    "level": "medium",
+    "seed": 820003,
+    "numbers": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+  },
+  {
+    "id": "wiki-medium-1",
+    "family": "wiki",
+    "level": "medium",
+    "seed": 820003,
+    "start": "Mathematics",
+    "target": "Artificial_intelligence",
+    "witness": [
+      "Mathematics",
+      "Computer_science",
+      "Artificial_intelligence"
+    ],
+    "max_hops": 4,
+    "instruction": "Starting on Wikipedia article Mathematics, reach the article Artificial intelligence by clicking article hyperlinks only. Do not use search, type URLs, or visit other websites. At most four article-to-article transitions. Stop when the target article is open."
+  },
+  {
+    "id": "email-medium-1",
+    "family": "email",
+    "level": "medium",
+    "seed": 820003,
+    "event": "Maple Seminar",
+    "date": "2026-11-20",
+    "date_aliases": [
+      "2026-11-20",
+      "November 20, 2026",
+      "November 20"
+    ],
+    "time": "15:30",
+    "venue": "Maple Hall",
+    "recipient": "coordinator@example.com",
+    "old_date": "2026-11-19",
+    "suggestion": "2026-11-21",
+    "old_venue": "Old Annex",
+    "forbidden": [
+      "2026-11-19",
+      "2026-11-21",
+      "November 19",
+      "November 21"
+    ],
+    "instruction": "Use the source page(s) in the available tabs to draft an email to coordinator@example.com. Subject must include the event name and confirmed date. Body must include the event name, confirmed date, time and current venue. Confirmed organizer updates override older announcements; attendee suggestions are not confirmations. For multiple sources, check the venue bulletin too. Save the draft in Mail Draft. Do not mention superseded or suggested dates or obsolete venues. Do not send anything."
+  },
+  {
+    "id": "offers-medium-1",
+    "family": "offers",
+    "level": "medium",
+    "seed": 820003,
+    "quantity": 3,
+    "offers": [
+      {
+        "vendor": "Aster",
+        "price": 2211,
+        "shipping": 200,
+        "discount": 0,
+        "stock": false,
+        "member": true
+      },
+      {
+        "vendor": "Birch",
+        "price": 2474,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Cobalt",
+        "price": 2737,
+        "shipping": 700,
+        "discount": 10,
+        "stock": true,
+        "member": true
+      },
+      {
+        "vendor": "Delta",
+        "price": 3000,
+        "shipping": 200,
+        "discount": 0,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Elm",
+        "price": 3263,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": true
+      }
+    ],
+    "instruction": "Compare the in-stock vendor offers in the source tab(s). Use the displayed quantity. Compute each eligible vendor total after the listed discount and shipping, then submit the cheapest vendor name and its total in dollars in Quote Report. For hard cases, apply the separate pricing-policy page. Round percentage discounts to the nearest cent, half up. No purchasing is needed."
+  },
+  {
+    "id": "booking-hard-0",
+    "family": "booking",
+    "level": "hard",
+    "seed": 820004,
+    "options": {
+      "failures": 3,
+      "lag": 3,
+      "distractors": 3,
+      "pending": true,
+      "delay": 4
+    },
+    "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+  },
+  {
+    "id": "math-hard-0",
+    "family": "math",
+    "level": "hard",
+    "seed": 820004,
+    "numbers": [
+      3,
+      3,
+      8,
+      8
+    ],
+    "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+  },
+  {
+    "id": "wiki-hard-0",
+    "family": "wiki",
+    "level": "hard",
+    "seed": 820004,
+    "start": "Python_(programming_language)",
+    "target": "University_of_Amsterdam",
+    "witness": [
+      "Python_(programming_language)",
+      "Guido_van_Rossum",
+      "University_of_Amsterdam"
+    ],
+    "max_hops": 4,
+    "instruction": "Starting on Wikipedia article Python (programming language), reach the article University of Amsterdam by clicking article hyperlinks only. Do not use search, type URLs, or visit other websites. At most four article-to-article transitions. Stop when the target article is open."
+  },
+  {
+    "id": "email-hard-0",
+    "family": "email",
+    "level": "hard",
+    "seed": 820004,
+    "event": "Atlas Review",
+    "date": "2026-12-21",
+    "date_aliases": [
+      "2026-12-21",
+      "December 21, 2026",
+      "December 21"
+    ],
+    "time": "14:30",
+    "venue": "Atlas Auditorium",
+    "recipient": "coordinator@example.com",
+    "old_date": "2026-12-20",
+    "suggestion": "2026-12-22",
+    "old_venue": "Old Annex",
+    "forbidden": [
+      "2026-12-20",
+      "2026-12-22",
+      "December 20",
+      "December 22",
+      "Old Annex"
+    ],
+    "instruction": "Use the source page(s) in the available tabs to draft an email to coordinator@example.com. Subject must include the event name and confirmed date. Body must include the event name, confirmed date, time and current venue. Confirmed organizer updates override older announcements; attendee suggestions are not confirmations. For multiple sources, check the venue bulletin too. Save the draft in Mail Draft. Do not mention superseded or suggested dates or obsolete venues. Do not send anything."
+  },
+  {
+    "id": "offers-hard-0",
+    "family": "offers",
+    "level": "hard",
+    "seed": 820004,
+    "quantity": 3,
+    "offers": [
+      {
+        "vendor": "Aster",
+        "price": 2348,
+        "shipping": 200,
+        "discount": 0,
+        "stock": false,
+        "member": true
+      },
+      {
+        "vendor": "Birch",
+        "price": 2611,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Cobalt",
+        "price": 2874,
+        "shipping": 700,
+        "discount": 10,
+        "stock": true,
+        "member": true
+      },
+      {
+        "vendor": "Delta",
+        "price": 3137,
+        "shipping": 200,
+        "discount": 0,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Elm",
+        "price": 1900,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": true
+      }
+    ],
+    "instruction": "Compare the in-stock vendor offers in the source tab(s). Use the displayed quantity. Compute each eligible vendor total after the listed discount and shipping, then submit the cheapest vendor name and its total in dollars in Quote Report. For hard cases, apply the separate pricing-policy page. Round percentage discounts to the nearest cent, half up. No purchasing is needed."
+  },
+  {
+    "id": "booking-hard-1",
+    "family": "booking",
+    "level": "hard",
+    "seed": 820005,
+    "options": {
+      "failures": 2,
+      "lag": 3,
+      "distractors": 2,
+      "pending": true,
+      "delay": 5
+    },
+    "instruction": "Complete the requested room booking exactly once. Other requests must remain unchanged. History may be stale: compare the visible history snapshot tick to the last submission tick before trusting an empty history. Check pending requests until confirmed. Click Finish task only after the request is correctly booked."
+  },
+  {
+    "id": "math-hard-1",
+    "family": "math",
+    "level": "hard",
+    "seed": 820005,
+    "numbers": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+  },
+  {
+    "id": "wiki-hard-1",
+    "family": "wiki",
+    "level": "hard",
+    "seed": 820005,
+    "start": "Solar_System",
+    "target": "Troposphere",
+    "witness": [
+      "Solar_System",
+      "Earth",
+      "Atmosphere_of_Earth",
+      "Troposphere"
+    ],
+    "max_hops": 4,
+    "instruction": "Starting on Wikipedia article Solar System, reach the article Troposphere by clicking article hyperlinks only. Do not use search, type URLs, or visit other websites. At most four article-to-article transitions. Stop when the target article is open."
+  },
+  {
+    "id": "email-hard-1",
+    "family": "email",
+    "level": "hard",
+    "seed": 820005,
+    "event": "Willow Forum",
+    "date": "2026-12-22",
+    "date_aliases": [
+      "2026-12-22",
+      "December 22, 2026",
+      "December 22"
+    ],
+    "time": "15:30",
+    "venue": "Willow Center",
+    "recipient": "coordinator@example.com",
+    "old_date": "2026-12-21",
+    "suggestion": "2026-12-23",
+    "old_venue": "Old Annex",
+    "forbidden": [
+      "2026-12-21",
+      "2026-12-23",
+      "December 21",
+      "December 23",
+      "Old Annex"
+    ],
+    "instruction": "Use the source page(s) in the available tabs to draft an email to coordinator@example.com. Subject must include the event name and confirmed date. Body must include the event name, confirmed date, time and current venue. Confirmed organizer updates override older announcements; attendee suggestions are not confirmations. For multiple sources, check the venue bulletin too. Save the draft in Mail Draft. Do not mention superseded or suggested dates or obsolete venues. Do not send anything."
+  },
+  {
+    "id": "offers-hard-1",
+    "family": "offers",
+    "level": "hard",
+    "seed": 820005,
+    "quantity": 3,
+    "offers": [
+      {
+        "vendor": "Aster",
+        "price": 2485,
+        "shipping": 200,
+        "discount": 0,
+        "stock": false,
+        "member": true
+      },
+      {
+        "vendor": "Birch",
+        "price": 2748,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Cobalt",
+        "price": 3011,
+        "shipping": 700,
+        "discount": 10,
+        "stock": true,
+        "member": true
+      },
+      {
+        "vendor": "Delta",
+        "price": 3274,
+        "shipping": 200,
+        "discount": 0,
+        "stock": true,
+        "member": false
+      },
+      {
+        "vendor": "Elm",
+        "price": 2037,
+        "shipping": 450,
+        "discount": 5,
+        "stock": true,
+        "member": true
+      }
+    ],
+    "instruction": "Compare the in-stock vendor offers in the source tab(s). Use the displayed quantity. Compute each eligible vendor total after the listed discount and shipping, then submit the cheapest vendor name and its total in dollars in Quote Report. For hard cases, apply the separate pricing-policy page. Round percentage discounts to the nearest cent, half up. No purchasing is needed."
+  }
+]

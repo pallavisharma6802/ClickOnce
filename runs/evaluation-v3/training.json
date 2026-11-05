@@ -1,0 +1,502 @@
+[
+  {
+    "seed": 101,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14684,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3915,
+        "last_100_success": 0.15
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8573,
+        "last_100_success": 0.18
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14684,
+        "last_100_success": 0.81
+      }
+    ],
+    "policy": "target_only_101",
+    "checkpoint_sha256": "4d329d179cfedb0fb69a00a3be4a973dbc445693cf59d68a522d99ca3ec5fba3"
+  },
+  {
+    "seed": 102,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14579,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3988,
+        "last_100_success": 0.13
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8529,
+        "last_100_success": 0.35
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14579,
+        "last_100_success": 0.82
+      }
+    ],
+    "policy": "target_only_102",
+    "checkpoint_sha256": "f7426f511180b0129db3ba5d3e811eef10cfbc427d9a847b964432cbec7d0487"
+  },
+  {
+    "seed": 103,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 15155,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4058,
+        "last_100_success": 0.18
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8793,
+        "last_100_success": 0.26
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15155,
+        "last_100_success": 0.51
+      }
+    ],
+    "policy": "target_only_103",
+    "checkpoint_sha256": "bf1bbcba92c815d1198546248dac9b2397d037444ef85ed9c6cad08ceeb1c507"
+  },
+  {
+    "seed": 104,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14667,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3920,
+        "last_100_success": 0.1
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8625,
+        "last_100_success": 0.34
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14667,
+        "last_100_success": 0.74
+      }
+    ],
+    "policy": "target_only_104",
+    "checkpoint_sha256": "36744659d3861613e7fa77943d4f539cc3dcc94fc0efb24cf116d6a1399df720"
+  },
+  {
+    "seed": 105,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14789,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3846,
+        "last_100_success": 0.08
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8506,
+        "last_100_success": 0.32
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14789,
+        "last_100_success": 0.71
+      }
+    ],
+    "policy": "target_only_105",
+    "checkpoint_sha256": "3ce51ea13be9d9f1f22dc777acd1e841142471d6ce131f9ff76726927390a363"
+  },
+  {
+    "seed": 106,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14435,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3924,
+        "last_100_success": 0.21
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8411,
+        "last_100_success": 0.12
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14435,
+        "last_100_success": 0.68
+      }
+    ],
+    "policy": "target_only_106",
+    "checkpoint_sha256": "212e66fe94c1e697f46eeec66cc934a4258166b9a74bb3b58141f1c78055b99a"
+  },
+  {
+    "seed": 107,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14646,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3838,
+        "last_100_success": 0.23
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8632,
+        "last_100_success": 0.33
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14646,
+        "last_100_success": 0.78
+      }
+    ],
+    "policy": "target_only_107",
+    "checkpoint_sha256": "f04fbbf8db3760ebc3722abea6310377689eeac7495a8811955333f1b2eaaf6c"
+  },
+  {
+    "seed": 108,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14691,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3924,
+        "last_100_success": 0.08
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8547,
+        "last_100_success": 0.2
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14691,
+        "last_100_success": 0.65
+      }
+    ],
+    "policy": "target_only_108",
+    "checkpoint_sha256": "8e5807c99f48cdb33a8b7438846f1add46bf529f9f617ebd90e8707849740ad8"
+  },
+  {
+    "seed": 109,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 14964,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4009,
+        "last_100_success": 0.13
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8686,
+        "last_100_success": 0.37
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 14963,
+        "last_100_success": 0.65
+      }
+    ],
+    "policy": "target_only_109",
+    "checkpoint_sha256": "75895dc5e25e18de332ea7d55a5ed534a0d3d64a3481d23aa4b52f008d225350"
+  },
+  {
+    "seed": 110,
+    "freshness": false,
+    "steps": 100000,
+    "completed_episodes": 13939,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3840,
+        "last_100_success": 0.23
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 7887,
+        "last_100_success": 0.39
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 13939,
+        "last_100_success": 0.6
+      }
+    ],
+    "policy": "target_only_110",
+    "checkpoint_sha256": "d8b00588c25edeac856f4c8be8362d9f9bbdd6236b8a4bd8e823b1d0df1a25d4"
+  },
+  {
+    "seed": 101,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15536,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4044,
+        "last_100_success": 0.18
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9022,
+        "last_100_success": 0.25
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15536,
+        "last_100_success": 0.66
+      }
+    ],
+    "policy": "freshness_101",
+    "checkpoint_sha256": "2c4c5e6693eefcef2efdbcb57e041742d2164e11df6e397d2b274c28f2ad110a"
+  },
+  {
+    "seed": 102,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15788,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4230,
+        "last_100_success": 0.14
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9253,
+        "last_100_success": 0.48
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15788,
+        "last_100_success": 0.97
+      }
+    ],
+    "policy": "freshness_102",
+    "checkpoint_sha256": "8b8bbcb77d4f028b3001dddf62c07f12a899cc2fe9000ab0d710e178494ca420"
+  },
+  {
+    "seed": 103,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15546,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4115,
+        "last_100_success": 0.18
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9151,
+        "last_100_success": 0.44
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15546,
+        "last_100_success": 0.86
+      }
+    ],
+    "policy": "freshness_103",
+    "checkpoint_sha256": "73e1a5311f4ea33b4a2f70943f95441a8525bb8b67147dddb5173de2813ec030"
+  },
+  {
+    "seed": 104,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15627,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4135,
+        "last_100_success": 0.16
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9207,
+        "last_100_success": 0.21
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15626,
+        "last_100_success": 0.87
+      }
+    ],
+    "policy": "freshness_104",
+    "checkpoint_sha256": "f018bc4791f829d2afd9f2430bf1d818336f637b5da637a6cb05f6e70d6ef8db"
+  },
+  {
+    "seed": 105,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15783,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4173,
+        "last_100_success": 0.16
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9300,
+        "last_100_success": 0.31
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15783,
+        "last_100_success": 0.88
+      }
+    ],
+    "policy": "freshness_105",
+    "checkpoint_sha256": "1d3e64d15893cd874505b3d0e8f34ad82a640d99954658751b351a44927ffdd5"
+  },
+  {
+    "seed": 106,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15846,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4167,
+        "last_100_success": 0.18
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9247,
+        "last_100_success": 0.3
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15846,
+        "last_100_success": 0.85
+      }
+    ],
+    "policy": "freshness_106",
+    "checkpoint_sha256": "8a0a9e8890808f51bae62c441552d3cbbda17ebb5297a1d4ce40480e930a7b1b"
+  },
+  {
+    "seed": 107,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15435,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 3941,
+        "last_100_success": 0.08
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 8966,
+        "last_100_success": 0.45
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15435,
+        "last_100_success": 0.9
+      }
+    ],
+    "policy": "freshness_107",
+    "checkpoint_sha256": "f1c55a9af81149ce7b80fd839b06510decd000e96f91f2f9fe61fa7756e4426c"
+  },
+  {
+    "seed": 108,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15681,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4123,
+        "last_100_success": 0.19
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9203,
+        "last_100_success": 0.46
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15681,
+        "last_100_success": 0.91
+      }
+    ],
+    "policy": "freshness_108",
+    "checkpoint_sha256": "713a84b9d7ff80d356fcec39b996cb4e80a3f745bee553b268db1bdb4f8df8ca"
+  },
+  {
+    "seed": 109,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15533,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4140,
+        "last_100_success": 0.22
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9161,
+        "last_100_success": 0.45
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15533,
+        "last_100_success": 0.84
+      }
+    ],
+    "policy": "freshness_109",
+    "checkpoint_sha256": "31c3cf0687f1fe1571b19f0c203fc83218ed7cc675c9642374ca0d6a0048f6f1"
+  },
+  {
+    "seed": 110,
+    "freshness": true,
+    "steps": 100000,
+    "completed_episodes": 15569,
+    "curve": [
+      {
+        "steps": 20000,
+        "completed_episodes": 4116,
+        "last_100_success": 0.16
+      },
+      {
+        "steps": 50000,
+        "completed_episodes": 9013,
+        "last_100_success": 0.31
+      },
+      {
+        "steps": 100000,
+        "completed_episodes": 15568,
+        "last_100_success": 0.88
+      }
+    ],
+    "policy": "freshness_110",
+    "checkpoint_sha256": "9b452f011f1e2494c5e745e6d091f9507da619d7e91db447dcd95b780b8fd78e"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "math-easy-0",
+  "family": "math",
+  "level": "easy",
+  "seed": 820000,
+  "numbers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "instruction": "Solve the visible 24 puzzle. Enter an arithmetic expression equal to 24 using each of the four displayed numbers exactly once. Only +, -, *, / and parentheses are allowed. Click Check expression to submit it."
+}

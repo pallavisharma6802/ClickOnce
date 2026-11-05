@@ -1,0 +1,29 @@
+{
+  "domain": {
+    "mean": 0.9857142857142858,
+    "std": 0.04517539514526258,
+    "minimum": 0.8571428571428571,
+    "maximum": 1,
+    "low": 0.9571428571428571,
+    "high": 1,
+    "n_training_seeds": 10
+  },
+  "composition": {
+    "mean": 0.9933333333333333,
+    "std": 0.02108185106778919,
+    "minimum": 0.9333333333333333,
+    "maximum": 1,
+    "low": 0.98,
+    "high": 1,
+    "n_training_seeds": 10
+  },
+  "timing": {
+    "mean": 0.045,
+    "std": 0.10124228365658293,
+    "minimum": 0,
+    "maximum": 0.3,
+    "low": 0,
+    "high": 0.105,
+    "n_training_seeds": 10
+  }
+}

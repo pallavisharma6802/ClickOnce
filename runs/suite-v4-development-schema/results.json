@@ -1,0 +1,22 @@
+[
+  {
+    "id": "development-math",
+    "family": "math",
+    "level": "easy",
+    "end_condition": "no_progress_loop",
+    "success": false,
+    "grade": {
+      "success": false,
+      "checks": {
+        "valid_expression": false,
+        "equals_24": false,
+        "submitted": true
+      },
+      "violations": []
+    },
+    "actions": 7,
+    "wall_seconds": 33.73949450001237,
+    "model_seconds": 28.937482916982844,
+    "generated_tokens": 893
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "planned": 30,
+  "recorded": 2,
+  "families": {
+    "booking": {
+      "attempted": 1,
+      "scorable": 1,
+      "passed": 0,
+      "infrastructure": 0
+    },
+    "math": {
+      "attempted": 1,
+      "scorable": 0,
+      "passed": 0,
+      "infrastructure": 1
+    },
+    "wiki": {
+      "attempted": 0,
+      "scorable": 0,
+      "passed": 0,
+      "infrastructure": 0
+    },
+    "email": {
+      "attempted": 0,
+      "scorable": 0,
+      "passed": 0,
+      "infrastructure": 0
+    },
+    "offers": {
+      "attempted": 0,
+      "scorable": 0,
+      "passed": 0,
+      "infrastructure": 0
+    }
+  }
+}

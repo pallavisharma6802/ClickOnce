@@ -1,0 +1,72 @@
+booking-easy-0 1 click 8.1s
+booking-easy-0 2 click 5.8s
+booking-easy-0 3 click 6.3s
+booking-easy-0 4 click 6.6s
+booking-easy-0 5 click 6.2s
+booking-easy-0 6 click 6.1s
+booking-easy-0 7 click 6.7s
+booking-easy-0 8 click 6.8s
+booking-easy-0 9 click 6.9s
+booking-easy-0 10 click 6.5s
+booking-easy-0 11 click 6.8s
+booking-easy-0 12 click 7.0s
+booking-easy-0 13 click 7.0s
+booking-easy-0 14 click 6.9s
+booking-easy-0 15 click 7.1s
+booking-easy-0 16 click 7.2s
+booking-easy-0 17 click 7.1s
+booking-easy-0 18 click 7.4s
+booking-easy-0 19 click 10.7s
+booking-easy-0 20 click 10.4s
+booking-easy-0 21 click 11.0s
+booking-easy-0 22 click 11.7s
+booking-easy-0 23 click 11.0s
+booking-easy-0 24 click 11.5s
+RESULT booking-easy-0 FAIL action_budget
+math-easy-0 1 click 13.6s
+math-easy-0 2 click 8.8s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/click_once/suite_eval.py", line 105, in <module>
+    else:run_suite(a.output,a.command=='calibrate')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/click_once/suite_eval.py", line 96, in run_suite
+    result=run_episode(case,out/case['id'],agent)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/click_once/suite_eval.py", line 45, in run_episode
+    action,timing=agent.act(png,public['instruction'],public['tabs'],public['active'],history)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/Desktop/projects/ClickOnce/click_once/screenshot_agent.py", line 40, in act
+    with urllib.request.urlopen(req,timeout=60) as response:data=json.load(response)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1390, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1365, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/http/client.py", line 1443, in getresponse
+    response.begin()
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/http/client.py", line 337, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/http/client.py", line 298, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pallavisharma/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,421 @@
+{
+  "id": "booking-easy-0",
+  "family": "booking",
+  "level": "easy",
+  "end_condition": "action_budget",
+  "success": false,
+  "grade": {
+    "success": false,
+    "checks": {
+      "strict_success": false,
+      "duplicate": 1,
+      "false_completion": 0,
+      "truncated": 0
+    },
+    "audit": {
+      "scenario": "normal",
+      "steps": 24,
+      "submission_attempts": 24,
+      "confirmed_count": 24,
+      "pending_count": 0,
+      "duplicate_count": 23,
+      "strict_success": false,
+      "finished": false,
+      "truncated": false,
+      "events": [
+        {
+          "tick": 1,
+          "event": "submitted",
+          "attempt": 1
+        },
+        {
+          "tick": 1,
+          "event": "confirmed",
+          "id": "B001"
+        },
+        {
+          "tick": 2,
+          "event": "submitted",
+          "attempt": 2
+        },
+        {
+          "tick": 2,
+          "event": "confirmed",
+          "id": "B002"
+        },
+        {
+          "tick": 3,
+          "event": "submitted",
+          "attempt": 3
+        },
+        {
+          "tick": 3,
+          "event": "confirmed",
+          "id": "B003"
+        },
+        {
+          "tick": 4,
+          "event": "submitted",
+          "attempt": 4
+        },
+        {
+          "tick": 4,
+          "event": "confirmed",
+          "id": "B004"
+        },
+        {
+          "tick": 5,
+          "event": "submitted",
+          "attempt": 5
+        },
+        {
+          "tick": 5,
+          "event": "confirmed",
+          "id": "B005"
+        },
+        {
+          "tick": 6,
+          "event": "submitted",
+          "attempt": 6
+        },
+        {
+          "tick": 6,
+          "event": "confirmed",
+          "id": "B006"
+        },
+        {
+          "tick": 7,
+          "event": "submitted",
+          "attempt": 7
+        },
+        {
+          "tick": 7,
+          "event": "confirmed",
+          "id": "B007"
+        },
+        {
+          "tick": 8,
+          "event": "submitted",
+          "attempt": 8
+        },
+        {
+          "tick": 8,
+          "event": "confirmed",
+          "id": "B008"
+        },
+        {
+          "tick": 9,
+          "event": "submitted",
+          "attempt": 9
+        },
+        {
+          "tick": 9,
+          "event": "confirmed",
+          "id": "B009"
+        },
+        {
+          "tick": 10,
+          "event": "submitted",
+          "attempt": 10
+        },
+        {
+          "tick": 10,
+          "event": "confirmed",
+          "id": "B010"
+        },
+        {
+          "tick": 11,
+          "event": "submitted",
+          "attempt": 11
+        },
+        {
+          "tick": 11,
+          "event": "confirmed",
+          "id": "B011"
+        },
+        {
+          "tick": 12,
+          "event": "submitted",
+          "attempt": 12
+        },
+        {
+          "tick": 12,
+          "event": "confirmed",
+          "id": "B012"
+        },
+        {
+          "tick": 13,
+          "event": "submitted",
+          "attempt": 13
+        },
+        {
+          "tick": 13,
+          "event": "confirmed",
+          "id": "B013"
+        },
+        {
+          "tick": 14,
+          "event": "submitted",
+          "attempt": 14
+        },
+        {
+          "tick": 14,
+          "event": "confirmed",
+          "id": "B014"
+        },
+        {
+          "tick": 15,
+          "event": "submitted",
+          "attempt": 15
+        },
+        {
+          "tick": 15,
+          "event": "confirmed",
+          "id": "B015"
+        },
+        {
+          "tick": 16,
+          "event": "submitted",
+          "attempt": 16
+        },
+        {
+          "tick": 16,
+          "event": "confirmed",
+          "id": "B016"
+        },
+        {
+          "tick": 17,
+          "event": "submitted",
+          "attempt": 17
+        },
+        {
+          "tick": 17,
+          "event": "confirmed",
+          "id": "B017"
+        },
+        {
+          "tick": 18,
+          "event": "submitted",
+          "attempt": 18
+        },
+        {
+          "tick": 18,
+          "event": "confirmed",
+          "id": "B018"
+        },
+        {
+          "tick": 19,
+          "event": "submitted",
+          "attempt": 19
+        },
+        {
+          "tick": 19,
+          "event": "confirmed",
+          "id": "B019"
+        },
+        {
+          "tick": 20,
+          "event": "submitted",
+          "attempt": 20
+        },
+        {
+          "tick": 20,
+          "event": "confirmed",
+          "id": "B020"
+        },
+        {
+          "tick": 21,
+          "event": "submitted",
+          "attempt": 21
+        },
+        {
+          "tick": 21,
+          "event": "confirmed",
+          "id": "B021"
+        },
+        {
+          "tick": 22,
+          "event": "submitted",
+          "attempt": 22
+        },
+        {
+          "tick": 22,
+          "event": "confirmed",
+          "id": "B022"
+        },
+        {
+          "tick": 23,
+          "event": "submitted",
+          "attempt": 23
+        },
+        {
+          "tick": 23,
+          "event": "confirmed",
+          "id": "B023"
+        },
+        {
+          "tick": 24,
+          "event": "submitted",
+          "attempt": 24
+        },
+        {
+          "tick": 24,
+          "event": "confirmed",
+          "id": "B024"
+        }
+      ],
+      "goal": "Book room Maple for request 9401",
+      "records": [
+        {
+          "id": "B001",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 3
+        },
+        {
+          "id": "B002",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 4
+        },
+        {
+          "id": "B003",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 5
+        },
+        {
+          "id": "B004",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 6
+        },
+        {
+          "id": "B005",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 7
+        },
+        {
+          "id": "B006",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 8
+        },
+        {
+          "id": "B007",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 9
+        },
+        {
+          "id": "B008",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 10
+        },
+        {
+          "id": "B009",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 11
+        },
+        {
+          "id": "B010",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 12
+        },
+        {
+          "id": "B011",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 13
+        },
+        {
+          "id": "B012",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 14
+        },
+        {
+          "id": "B013",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 15
+        },
+        {
+          "id": "B014",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 16
+        },
+        {
+          "id": "B015",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 17
+        },
+        {
+          "id": "B016",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 18
+        },
+        {
+          "id": "B017",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 19
+        },
+        {
+          "id": "B018",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 20
+        },
+        {
+          "id": "B019",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 21
+        },
+        {
+          "id": "B020",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 22
+        },
+        {
+          "id": "B021",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 23
+        },
+        {
+          "id": "B022",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 24
+        },
+        {
+          "id": "B023",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 25
+        },
+        {
+          "id": "B024",
+          "target": "Book room Maple for request 9401",
+          "status": "confirmed",
+          "due": 26
+        }
+      ],
+      "initial_records": []
+    }
+  },
+  "actions": 24,
+  "wall_seconds": 209.28778433299158,
+  "model_seconds": 188.82578095802455,
+  "generated_tokens": 2493
+}
